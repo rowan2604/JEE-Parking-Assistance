@@ -6,45 +6,36 @@ import javax.persistence.ManyToOne;
 @Entity
 public class Localisation extends GenericEntity {
 
-    private String name;
+    private String adresse;
 
-    @ManyToOne
-    private PlaceSpeciales placeSpeciales;
-
-    @ManyToOne
-    private Ville ville;
+    private String longitude;
+    private String latitude;
 
 
     public Localisation() {
     }
 
-
-    public String getName() {
-        return name;
+    public String getAdresse() {
+        return adresse;
     }
 
-
-    public void setName(final String nameValue) {
-        name = nameValue;
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
     }
 
-
-    public PlaceSpeciales getPlaceSpeciales() {
-        return placeSpeciales;
+    public String getLongitude() {
+        return longitude;
     }
 
-
-    public void setPlaceSpeciales(final PlaceSpeciales placeSpecialesValue) {
-        placeSpeciales = placeSpecialesValue;
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
     }
 
-
-    public Ville getVille() {
-        return ville;
+    public String getLatitude() {
+        return latitude;
     }
 
-
-    public void setVille(final Ville villeValue) {
-        ville = villeValue;
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
     }
 }

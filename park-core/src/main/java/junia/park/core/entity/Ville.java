@@ -10,43 +10,14 @@ public class Ville extends GenericEntity {
 
     private String name;
 
-    @OneToMany(mappedBy = "ville")
-    private List<Localisation> localisations;
-
-    @ManyToOne
-    private Parking parking;
+    @OneToMany
+    private List<Parking> parkings;
 
 
     public Ville() {
+
     }
 
 
-    public String getName() {
-        return name;
-    }
 
-
-    public void setName(final String nameValue) {
-        name = nameValue;
-    }
-
-
-    public List<Localisation> getProjects() {
-        return localisations;
-    }
-
-
-    public void setProjects(final List<Localisation> localisationValue) {
-        localisations = localisationValue;
-    }
-
-
-    public Parking getParking() {
-        return parking;
-    }
-
-
-    public void setParking(final Parking parkingValue) {
-        parking = parkingValue;
-    }
 }
