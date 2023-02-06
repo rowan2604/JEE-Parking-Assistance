@@ -31,13 +31,13 @@
 <div class="container">
 
     <div class="jumbotron">
-        <h1>Add a company</h1>
+        <h1>Add a placeSpeciales</h1>
     </div>
 
     <form action="form" method="POST">
         <div class="form-group">
             <label for="name">name</label>
-            #springFormInput("company.name" "class='form-control' id='name' placeholder='name'")
+            #springFormInput("placeSpeciales.name" "class='form-control' id='name' placeholder='name'")
         </div>
 
 
