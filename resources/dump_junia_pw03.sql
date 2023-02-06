@@ -44,13 +44,13 @@ INSERT INTO `businesstype` VALUES (6,'2019-09-16 10:00:38',NULL,'retail'),(7,'20
 UNLOCK TABLES;
 
 --
--- Table structure for table `company`
+-- Table structure for table `placeSpeciales`
 --
 
-DROP TABLE IF EXISTS `company`;
+DROP TABLE IF EXISTS `placeSpeciales`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `company` (
+CREATE TABLE `placeSpeciales` (
   `id` bigint(20) NOT NULL,
   `creationDate` datetime DEFAULT NULL,
   `updateDate` datetime DEFAULT NULL,
@@ -60,41 +60,41 @@ CREATE TABLE `company` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `company`
+-- Dumping data for table `placeSpeciales`
 --
 
-LOCK TABLES `company` WRITE;
-/*!40000 ALTER TABLE `company` DISABLE KEYS */;
-INSERT INTO `company` VALUES (1,'2019-09-16 10:00:38',NULL,'Worldline'),(2,'2019-09-16 10:00:38',NULL,'Sopra Steria'),(3,'2019-09-16 10:00:38',NULL,'Atos'),(4,'2019-09-16 10:00:38',NULL,'Cap Gemini'),(5,'2019-09-16 10:00:38',NULL,'CGI');
-/*!40000 ALTER TABLE `company` ENABLE KEYS */;
+LOCK TABLES `placeSpeciales` WRITE;
+/*!40000 ALTER TABLE `placeSpeciales` DISABLE KEYS */;
+INSERT INTO `placeSpeciales` VALUES (1,'2019-09-16 10:00:38',NULL,'Worldline'),(2,'2019-09-16 10:00:38',NULL,'Sopra Steria'),(3,'2019-09-16 10:00:38',NULL,'Atos'),(4,'2019-09-16 10:00:38',NULL,'Cap Gemini'),(5,'2019-09-16 10:00:38',NULL,'CGI');
+/*!40000 ALTER TABLE `placeSpeciales` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `customer`
+-- Table structure for table `ville`
 --
 
-DROP TABLE IF EXISTS `customer`;
+DROP TABLE IF EXISTS `ville`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `customer` (
+CREATE TABLE `ville` (
   `id` bigint(20) NOT NULL,
   `creationDate` datetime DEFAULT NULL,
   `updateDate` datetime DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,
-  `businessType_id` bigint(20) DEFAULT NULL,
+  `parking_id` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `FK3exe18sbal0uyd01iuhed23uf` (`businessType_id`)
+  KEY `FK3exe18sbal0uyd01iuhed23uf` (`parking_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `customer`
+-- Dumping data for table `ville`
 --
 
-LOCK TABLES `customer` WRITE;
-/*!40000 ALTER TABLE `customer` DISABLE KEYS */;
-INSERT INTO `customer` VALUES (11,'2019-09-16 10:00:39',NULL,'Auchan',6),(12,'2019-09-16 10:00:39',NULL,'Carrefour',6),(13,'2019-09-16 10:00:39',NULL,'Walmart',6),(14,'2019-09-16 10:00:39',NULL,'Philips',7),(15,'2019-09-16 10:00:39',NULL,'GE',7),(16,'2019-09-16 10:00:39',NULL,'Orange',8),(17,'2019-09-16 10:00:39',NULL,'Airbus',9),(18,'2019-09-16 10:00:39',NULL,'Boeing',9),(19,'2019-09-16 10:00:39',NULL,'Kraft',10),(20,'2019-09-16 10:00:39',NULL,'Nestle',10);
-/*!40000 ALTER TABLE `customer` ENABLE KEYS */;
+LOCK TABLES `ville` WRITE;
+/*!40000 ALTER TABLE `ville` DISABLE KEYS */;
+INSERT INTO `ville` VALUES (11,'2019-09-16 10:00:39',NULL,'Auchan',6),(12,'2019-09-16 10:00:39',NULL,'Carrefour',6),(13,'2019-09-16 10:00:39',NULL,'Walmart',6),(14,'2019-09-16 10:00:39',NULL,'Philips',7),(15,'2019-09-16 10:00:39',NULL,'GE',7),(16,'2019-09-16 10:00:39',NULL,'Orange',8),(17,'2019-09-16 10:00:39',NULL,'Airbus',9),(18,'2019-09-16 10:00:39',NULL,'Boeing',9),(19,'2019-09-16 10:00:39',NULL,'Kraft',10),(20,'2019-09-16 10:00:39',NULL,'Nestle',10);
+/*!40000 ALTER TABLE `ville` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -120,33 +120,33 @@ INSERT INTO `hibernate_sequence` VALUES (35),(35),(35),(35);
 UNLOCK TABLES;
 
 --
--- Table structure for table `project`
+-- Table structure for table `localisation`
 --
 
-DROP TABLE IF EXISTS `project`;
+DROP TABLE IF EXISTS `localisation`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `project` (
+CREATE TABLE `localisation` (
   `id` bigint(20) NOT NULL,
   `creationDate` datetime DEFAULT NULL,
   `updateDate` datetime DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,
-  `company_id` bigint(20) DEFAULT NULL,
-  `customer_id` bigint(20) DEFAULT NULL,
+  `placeSpeciales_id` bigint(20) DEFAULT NULL,
+  `ville_id` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `FKpub41wp2ytydeu4wkkp71xfq2` (`company_id`),
-  KEY `FKsbm64qmwf17w5fdaueknmxbji` (`customer_id`)
+  KEY `FKpub41wp2ytydeu4wkkp71xfq2` (`placeSpeciales_id`),
+  KEY `FKsbm64qmwf17w5fdaueknmxbji` (`ville_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `project`
+-- Dumping data for table `localisation`
 --
 
-LOCK TABLES `project` WRITE;
-/*!40000 ALTER TABLE `project` DISABLE KEYS */;
-INSERT INTO `project` VALUES (21,'2019-09-16 10:00:39',NULL,'Webmail refactoring',1,16),(22,'2019-09-16 10:00:39',NULL,'Legacy project',3,18),(23,'2019-09-16 10:00:39',NULL,'Digital transformation',4,19),(24,'2019-09-16 10:00:39',NULL,'5G deployment',2,16),(25,'2019-09-16 10:00:39',NULL,'Cloud storage',2,16),(26,'2019-09-16 10:00:39',NULL,'RFID update',2,16),(27,'2019-09-16 10:00:39',NULL,'Mobile App',5,20),(28,'2019-09-16 10:00:39',NULL,'Mobile App',4,20),(29,'2019-09-16 10:00:39',NULL,'5G deployment',1,16),(30,'2019-09-16 10:00:39',NULL,'Project Management',3,17),(31,'2019-09-16 10:00:39',NULL,'Payment system',1,11),(32,'2019-09-16 10:00:39',NULL,'Webstore',1,13);
-/*!40000 ALTER TABLE `project` ENABLE KEYS */;
+LOCK TABLES `localisation` WRITE;
+/*!40000 ALTER TABLE `localisation` DISABLE KEYS */;
+INSERT INTO `localisation` VALUES (21,'2019-09-16 10:00:39',NULL,'Webmail refactoring',1,16),(22,'2019-09-16 10:00:39',NULL,'Legacy localisation',3,18),(23,'2019-09-16 10:00:39',NULL,'Digital transformation',4,19),(24,'2019-09-16 10:00:39',NULL,'5G deployment',2,16),(25,'2019-09-16 10:00:39',NULL,'Cloud storage',2,16),(26,'2019-09-16 10:00:39',NULL,'RFID update',2,16),(27,'2019-09-16 10:00:39',NULL,'Mobile App',5,20),(28,'2019-09-16 10:00:39',NULL,'Mobile App',4,20),(29,'2019-09-16 10:00:39',NULL,'5G deployment',1,16),(30,'2019-09-16 10:00:39',NULL,'Project Management',3,17),(31,'2019-09-16 10:00:39',NULL,'Payment system',1,11),(32,'2019-09-16 10:00:39',NULL,'Webstore',1,13);
+/*!40000 ALTER TABLE `localisation` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --

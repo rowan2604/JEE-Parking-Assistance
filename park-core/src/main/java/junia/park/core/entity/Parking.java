@@ -5,18 +5,17 @@ import javax.persistence.OneToMany;
 import java.util.List;
 
 @Entity
-public class Company extends GenericEntity{
+public class Parking extends GenericEntity {
 
 
     private String name;
 
-    @OneToMany(mappedBy = "company")
-    private List<Project> projects;
+    @OneToMany(mappedBy = "parking")
+    private List<Ville> villes;
 
 
-    public Company() {
+    public Parking() {
     }
-
 
 
 
@@ -31,14 +30,12 @@ public class Company extends GenericEntity{
     }
 
 
-    public List<Project> getProjects() {
-        return projects;
+    public List<Ville> getVilles() {
+        return villes;
     }
 
 
-    public void setProjects(final List<Project> projectsValue) {
-        projects = projectsValue;
+    public void setVilles(final List<Ville> villesValue) {
+        villes = villesValue;
     }
-
-
 }
