@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/lab04-web" />
+    <file type="web" url="file://$PROJECT_DIR$/park-web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

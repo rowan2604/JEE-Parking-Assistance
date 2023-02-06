@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lab04-core" />
-        <module name="lab04-web" />
+        <module name="park-core" />
+        <module name="park-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

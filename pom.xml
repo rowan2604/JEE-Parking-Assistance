@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>junia.jee</groupId>
-    <artifactId>lab04</artifactId>
+    <artifactId>park</artifactId>
     <version>2023.q1</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>lab04-core</module>
-        <module>lab04-web</module>
+        <module>park-core</module>
+        <module>park-web</module>
     </modules>
          
     <properties>
