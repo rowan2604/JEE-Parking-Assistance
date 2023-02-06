@@ -1,0 +1,31 @@
+idée projet jee : 
+parking dans les hauts de france:
+
+4 tables :
+1/parking : taille(space_count),  prix(cost_1h) , status payant ou gratuit(is_free) , la hauteur(max_height)
+2/localisation: coo gps(longitude :xlong, latitude:ylat) , adresse(address) et photo(...)
+3/ville :nom de la ville(com_name), nombre de parking(addition), nombre de place(addition)
+4/places spéciales : handicapés(disable_count) , vélos(bike_count), electriques car(electric_car_count), convoiturage(carpool_count)
+
+info :
+
+https://public.opendatasoft.com/explore/dataset/mobilityref-france-base-nationale-des-lieux-de-stationnement/information/?flg=fr&rows=9996&refine.dep_name=
+Nord&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiU1VNIiwieUF4aXMiOiJzcGFjZV9jb3VudCIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cn
+VlLCJjb2xvciI6IiMxQjY2OTgifV0sInhBeGlzIjoicmVnX25hbWUiLCJtYXhwb2ludHMiOjUwLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJtb2JpbGl0eXJlZi1mcmFuY2UtYmFzZS1uYXRpb25hbGUtZGVz
+LWxpZXV4LWRlLXN0YXRpb25uZW1lbnQiLCJvcHRpb25zIjp7ImZsZyI6ImZyIiwicm93cyI6Ijk5OTYiLCJyZWZpbmUuZGVwX25hbWUiOiJOb3JkIn19fV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZ
+WdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&basemap=mapbox.light&location=12,50.63716,3.1105
+
+page 1 :
+page d'accueil avec tableau, possibilité de filtrer l'aperçu.
+*cliquer sur le parking*
+
+page 2 : voir les stats du parking avec la photo, ladresse, la ville, nombre de place (s'inspirer de ca)
+
+ https://public.opendatasoft.com/explore/embed/dataset/mobilityref-france-base-nationale-des-lieux-de-stationnement/
+custom/?flg=fr&rows=9996&refine.dep_name=Nord&dataChart=
+eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiU1VNIiwieUF4aXMiOiJzcGFjZV9jb3VudCIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiMxQjY2OTgifV0sInhBeGlzIjoicm
+VnX25hbWUiLCJtYXhwb2ludHMiOjUwLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJtb2JpbGl0eXJlZi1mcmFuY2UtYmFzZS1uYXRpb25hbGUtZGVzLWxpZXV4LWRlLXN0YXRpb25uZW1lbnQiLCJvcHRpb25z
+Ijp7ImZsZyI6ImZyIiwicm93cyI6Ijk5OTYiLCJyZWZpbmUuZGVwX25hbWUiOiJOb3JkIn19fV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&basemap=mapbox.light&location=
+12,50.63716,3.1105 
+
+page 3 : recap par ville.
