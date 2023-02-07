@@ -1,7 +1,7 @@
 idée projet jee : 
 parking dans les hauts de france:
 
-4 tables :
+4 tables : 
 1/parking : taille(space_count),  prix(cost_1h) , status payant ou gratuit(is_free) , la hauteur(max_height)
 2/localisation: coo gps(longitude :xlong, latitude:ylat) , adresse(address) et photo(...)
 3/ville :nom de la ville(com_name), nombre de parking(addition), nombre de place(addition)
