@@ -2,16 +2,21 @@ package junia.park.core.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import java.util.List;
 
 @Entity
 public class PlaceSpeciales extends GenericEntity{
 
 
-    private String name;
+    private int id;
+    @OneToOne
+    private Parking parking;
+    private int nbrHandicapes;
+    private int nbrPVoiturelaceElectriques;
+    private int nbrVelo;
+    private int nbrCovoiturage;
 
-    @OneToMany(mappedBy = "placeSpeciales")
-    private List<Localisation> localisations;
 
 
     public PlaceSpeciales() {
@@ -21,24 +26,7 @@ public class PlaceSpeciales extends GenericEntity{
 
 
 
-    public String getName() {
-        return name;
-    }
 
-
-    public void setName(final String nameValue) {
-        name = nameValue;
-    }
-
-
-    public List<Localisation> getProjects() {
-        return localisations;
-    }
-
-
-    public void setProjects(final List<Localisation> projectsValue) {
-        localisations = projectsValue;
-    }
 
 
 }

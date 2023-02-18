@@ -9,6 +9,9 @@ import java.util.List;
 public class Ville extends GenericEntity {
 
     private String name;
+    private int idVille;
+    private int nbrPlace;
+    private int nbrParking;
 
     @OneToMany
     private List<Parking> parkings;
