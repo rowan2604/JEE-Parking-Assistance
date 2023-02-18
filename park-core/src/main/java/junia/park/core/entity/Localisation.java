@@ -10,8 +10,8 @@ public class Localisation extends GenericEntity {
 
     private String longitude;
     private String latitude;
-
-
+    private String cooGPS;
+    private String lienPhoto;
     public Localisation() {
     }
 

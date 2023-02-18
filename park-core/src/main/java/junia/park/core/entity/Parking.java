@@ -18,9 +18,10 @@ public class Parking extends GenericEntity {
     @OneToOne
     private Localisation localisation;
     private int id;
-    private int nbr_place;
-    private boolean is_free;
+    private int nbrPlace;
+    private boolean estGratuit;
     private int hauteur; //cm
+    private float prix_1h;
 
 
 

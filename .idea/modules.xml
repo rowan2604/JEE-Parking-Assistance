@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lab04-core/park-core.iml" filepath="$PROJECT_DIR$/lab04-core/park-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab04-web/park-web.iml" filepath="$PROJECT_DIR$/lab04-web/park-web.iml" />
     </modules>
   </component>
 </project>
