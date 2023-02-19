@@ -16,18 +16,13 @@ public class VilleController {
     }
 
     VilleService villeService;
-    @RequestMapping(value = "/list",method = RequestMethod.GET)
+    @RequestMapping(value = "/",method = RequestMethod.GET)
     public String getListofVilles(ModelMap modelMap){
         List<Ville> villes = villeService.findAllParking();
         modelMap.addAttribute("villes",villes);
         return "villesList";
     }
 
-
-    public String deletePlaceSpeciales(int id){
-        villeService.deleteById(id);
-        return "redirect::list";
-    }
 
 
 

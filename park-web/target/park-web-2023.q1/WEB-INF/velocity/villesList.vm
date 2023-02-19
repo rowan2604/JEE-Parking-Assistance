@@ -79,7 +79,7 @@
                 <td>
                     #foreach($localisation in $ville.localisations)
                     <form action="form" method="POST">
-                        <a href="parking/{$localisation.parking_id}"> $localisation.adresse</a>
+                        <a href="parking/$localisation.id"> $localisation.adresse</a>
                         <br>
                        <br/>
                     #end

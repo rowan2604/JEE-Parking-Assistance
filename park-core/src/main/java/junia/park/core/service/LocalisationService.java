@@ -6,6 +6,7 @@ import junia.park.core.dao.LocalisationDAO;
 import junia.park.core.entity.Localisation;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -18,6 +19,9 @@ public class LocalisationService {
         this.localisationDAO = localisationDAO;
     }
 
+    public Optional<Localisation> getParkingById(int id) {
+        return localisationDAO.findById(id);
+    }
 
     public void deleteAll() {
         localisationDAO.deleteAll();

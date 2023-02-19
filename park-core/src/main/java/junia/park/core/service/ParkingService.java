@@ -1,5 +1,6 @@
 package junia.park.core.service;
 
+import junia.park.core.dao.LocalisationDAO;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import junia.park.core.dao.ParkingDAO;
@@ -12,10 +13,13 @@ import java.util.Optional;
 public class ParkingService {
 
     private ParkingDAO parkingDAO;
+    private final LocalisationDAO localisationDAO;
 
 
-    public ParkingService(final ParkingDAO parkingDAO) {
+    public ParkingService(final ParkingDAO parkingDAO,
+                          LocalisationDAO localisationDAO) {
         this.parkingDAO = parkingDAO;
+        this.localisationDAO = localisationDAO;
     }
 
 
