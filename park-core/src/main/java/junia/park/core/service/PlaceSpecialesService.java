@@ -36,21 +36,10 @@ public class PlaceSpecialesService {
     }
 
 
-    public Map<String, Integer> getAllWithProjectCount() {
-        Map<String,Integer> projectCount = new TreeMap<>();
-        final List<PlaceSpeciales> companies = placeSpecialesDAO.findAllWithProjects();
-        for(PlaceSpeciales placeSpeciales :companies){
-            projectCount.put(placeSpeciales.getName(), placeSpeciales.getProjects().size());
-        }
-        return projectCount;
-    }
-
-    public List<PlaceSpeciales> findAllWithProjects(){
-        return placeSpecialesDAO.findAllWithProjects();
-    }
 
 
-    public void deleteById(final long id) {
+
+    public void deleteById(final int id) {
         placeSpecialesDAO.deleteById(id);
     }
 }

@@ -6,8 +6,5 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface PlaceSpecialesDAO extends JpaRepository<PlaceSpeciales, Long> {
-
-    @Query("SELECT DISTINCT c FROM PlaceSpeciales c LEFT JOIN FETCH c.localisations")
-    List<PlaceSpeciales> findAllWithProjects();
+public interface PlaceSpecialesDAO extends JpaRepository<PlaceSpeciales, Integer> {
 }

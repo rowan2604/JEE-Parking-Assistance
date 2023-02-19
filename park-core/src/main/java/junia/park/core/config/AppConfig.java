@@ -11,11 +11,11 @@ public class AppConfig {
 
     public static final String DB_HOST = "localhost:3306";
 
-    public static final String DB_SCHEMA = "junia_lab03";
+    public static final String DB_SCHEMA = "bdd_parkassist";
 
     public static final String DB_USER = "roro";
 
-    public static final String DB_PASSWORD = "Roro2000";
+    public static final String DB_PASSWORD = "rowampro";
 
 
     @Bean

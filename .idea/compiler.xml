@@ -7,13 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="park-core" />
-        <module name="JEE-Parking-Assistance" />
         <module name="park-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="junia-web" target="17" />
-      <module name="park-core" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

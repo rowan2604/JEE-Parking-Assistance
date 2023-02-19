@@ -1,41 +1,72 @@
 package junia.park.core.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
-public class Localisation extends GenericEntity {
+public class Localisation{
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Id
+    public int id;
     private String adresse;
+    private String coordoneeGPS;
+    private String photo;
 
-    private String longitude;
-    private String latitude;
-    private String cooGPS;
-    private String lienPhoto;
+    public String getCoordoneeGPS() {
+        return coordoneeGPS;
+    }
+
+    public void setCoordoneeGPS(String coordoneeGPS) {
+        this.coordoneeGPS = coordoneeGPS;
+    }
+
+    @ManyToOne
+    private Ville ville;
+    @OneToOne
+    private Parking parking;
     public Localisation() {
     }
 
-    public String getAdresse() {
-        return adresse;
+
+    public Parking getParking() {
+        return parking;
+    }
+
+    public void setParking(Parking parking) {
+        this.parking = parking;
     }
 
     public void setAdresse(String adresse) {
         this.adresse = adresse;
     }
 
-    public String getLongitude() {
-        return longitude;
+
+    public void setVille(Ville ville) {
+        this.ville = ville;
     }
 
-    public void setLongitude(String longitude) {
-        this.longitude = longitude;
+    public String getAdresse() {
+        return adresse;
     }
 
-    public String getLatitude() {
-        return latitude;
+    public Ville getVille() {
+        return ville;
     }
 
-    public void setLatitude(String latitude) {
-        this.latitude = latitude;
+
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 }

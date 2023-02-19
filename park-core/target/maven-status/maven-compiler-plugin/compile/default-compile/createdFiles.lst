@@ -1,0 +1,15 @@
+junia\park\core\service\PlaceSpecialesService.class
+junia\park\core\service\LocalisationService.class
+junia\park\core\entity\PlaceSpeciales.class
+junia\park\core\dao\LocalisationDAO.class
+junia\park\core\dao\VilleDAO.class
+junia\park\core\entity\Localisation.class
+junia\park\core\config\DBConfig.class
+junia\park\core\entity\Parking.class
+junia\park\core\service\ParkingService.class
+junia\park\core\entity\GenericEntity.class
+junia\park\core\dao\ParkingDAO.class
+junia\park\core\entity\Ville.class
+junia\park\core\config\AppConfig.class
+junia\park\core\dao\PlaceSpecialesDAO.class
+junia\park\core\service\VilleService.class

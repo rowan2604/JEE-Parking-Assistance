@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>park</title>
+
+    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            padding-top: 50px;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Park</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="jumbotron">
+        <h1>List of Parking</h1>
+
+    </div>
+
+
+    <table class="table table-striped">
+        #foreach($ville in $villes)
+            <tr>
+                <td>$ville.nom</td>
+                <td>
+                    #foreach($localisation in $ville.localisations)
+                        Localisation : $localisation.adresse :
+                       <br/>
+                    #end
+                </td>
+                <td><a href="$ville.idVille/delete" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></a></td>
+            </tr>
+        #end
+    </table>
+</div>
+
+
+</body>
+</html>

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<localisation xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>junia.jee</groupId>
         <artifactId>park</artifactId>
+        <version>2023.q1</version>
     </parent>
     <packaging>war</packaging>
     <dependencies>
         <dependency>
             <groupId>junia.jee</groupId>
-            <artifactId>park-web</artifactId>
+            <artifactId>park-core</artifactId>
+            <version>2023.q1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -45,13 +47,13 @@
     </dependency>
         <dependency>
             <groupId>junia.jee</groupId>
-            <artifactId>lab04-core</artifactId>
+            <artifactId>park-core</artifactId>
             <version>2023.q1</version>
             <scope>compile</scope>
         </dependency>
 
     </dependencies>
-    <artifactId>lab04-web</artifactId>
+    <artifactId>park-web</artifactId>
 
 
 
@@ -61,4 +63,4 @@
         <localisation.build.sourceEncoding>UTF-8</localisation.build.sourceEncoding>
     </properties>
 
-</localisation>
+</project>

@@ -1,1 +1,1610 @@
-{"nhits": 36, "parameters": {"dataset": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "rows": 9996, "start": 0, "facet": ["user_type", "dep_name", "reg_name", "dep_code", "reg_code"], "format": "json", "timezone": "UTC"}, "records": [{"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "cc3a69e3950b296387a25295cecbe8c62bf15db9", "fields": {"bin_disable_cost": 0, "insee_code": "59512", "geo_point_2d": [50.693243, 3.177525], "user_type": "tous", "cost_4h": 1.4, "electric_car_count": 4, "id": "59512-P-003", "bike_count": 20, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "31869720800094", "dep_name": "Nord", "id_source": "RBX0006", "dep_code": "59", "xlong": 3.177525, "ylat": 50.693243, "space_count": 1286, "max_height": 215.0, "com_name": "Roubaix", "cost_3h": 1.4, "is_free": 0, "cost_2h": 1.4, "info": "Abonnement annuel mensualise 24/24 38,33euros", "address": "Avenue des Nations Unies, 59170, Roubaix", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking GRAND RUE", "cost_1h": 1.4}, "geometry": {"type": "Point", "coordinates": [3.177525, 50.693243]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "91e2a5d8f0eeff93c14b4163003bcda0103604c1", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.638435, 3.065424], "user_type": "tous", "cost_4h": 2.0, "electric_car_count": 3, "id": "59350-P-012", "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "43527259601814", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0009", "dep_code": "59", "xlong": 3.065424, "ylat": 50.638435, "space_count": 546, "max_height": 190.0, "com_name": "Lille", "cost_3h": 2.1, "is_free": 0, "cost_2h": 1.6, "info": "Abonnement annuel mensualise 24/24 110euros", "address": "Avenue Carnot, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Opera", "cost_1h": 1.7}, "geometry": {"type": "Point", "coordinates": [3.065424, 50.638435]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "52f18714db63c20a8bd2cf1e241c820f0eb99b2d", "fields": {"bin_disable_cost": 1, "insee_code": "59350", "geo_point_2d": [50.617395, 3.063771], "user_type": "tous", "space_count": 100, "max_height": 200.0, "com_name": "Lille", "id": "59350-P-021", "is_free": 1, "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "carpool_count": 2, "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "Boulevard d'Alsace, 59000, Lille", "park_ride_count": 100, "disable_cost": "gratuit", "name": "Porte d Arras", "dep_name": "Nord", "id_source": "PDA1", "dep_code": "59", "xlong": 3.063771, "ylat": 50.617395}, "geometry": {"type": "Point", "coordinates": [3.063771, 50.617395]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "ecc5ebd8a3a34d6bd510be29df463b76ce5f5db3", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.631121, 3.063227], "user_type": "tous", "cost_4h": 2.0, "electric_car_count": 3, "id": "59350-P-001", "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "43527259601814", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0001", "dep_code": "59", "xlong": 3.063227, "ylat": 50.631121, "space_count": 353, "max_height": 190.0, "com_name": "Lille", "cost_3h": 2.1, "is_free": 0, "cost_2h": 1.7, "info": "Abonnement annuel mensualise 24/24 100 euros", "address": "Place de la Republique, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Republique", "cost_1h": 1.4}, "geometry": {"type": "Point", "coordinates": [3.063227, 50.631121]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "7b1198b55a8774f208233294cfc5abaf0d1d2ea3", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.637164, 3.063572], "user_type": "tous", "cost_4h": 2.4, "id": "59350-P-011", "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0011", "dep_code": "59", "xlong": 3.063572, "ylat": 50.637164, "space_count": 422, "max_height": 180.0, "com_name": "Lille", "cost_3h": 2.0, "is_free": 0, "cost_2h": 2.8, "info": "Abonnement annuel mensualise 24/24 150 euros", "address": "Place du General de Gaulle, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Grand Place", "cost_1h": 2.8}, "geometry": {"type": "Point", "coordinates": [3.063572, 50.637164]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "a77c7450b670bb946ff095266d7972608ed67bad", "fields": {"bin_disable_cost": 0, "insee_code": "59512", "geo_point_2d": [50.691085, 3.172115], "user_type": "tous", "cost_4h": 1.2, "id": "59512-P-004", "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "31869720800094", "facilities_type": "enclos_en_surface", "dep_name": "Nord", "id_source": "RBX0007", "dep_code": "59", "xlong": 3.172115, "ylat": 50.691085, "space_count": 80, "com_name": "Roubaix", "cost_3h": 1.2, "is_free": 0, "cost_2h": 1.2, "info": "Abonnement non communique", "address": "Rue Neuve, 59170, Roubaix", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking CENTRE", "cost_1h": 1.2}, "geometry": {"type": "Point", "coordinates": [3.172115, 50.691085]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "6a14fd5bd6a704f2269a5242776ac60b9888f459", "fields": {"bin_disable_cost": 0, "insee_code": "59599", "geo_point_2d": [50.721884, 3.163254], "user_type": "abonn\u00e9s", "cost_4h": 0.4, "electric_car_count": 3, "id": "59599-P-003", "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "TCG0002", "dep_code": "59", "xlong": 3.163254, "ylat": 50.721884, "space_count": 273, "max_height": 190.0, "com_name": "Tourcoing", "cost_3h": 0.4, "is_free": 0, "cost_2h": 0.6, "info": "Abonnement annuel mensualise 24/24 38euros", "address": "Avenue Allende, 59200, Tourcoing", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Miss Cavell", "cost_1h": 0.8}, "geometry": {"type": "Point", "coordinates": [3.163254, 50.721884]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "d2c40fa7c3c23bf9a2bf881990ae082f7df938b9", "fields": {"bin_disable_cost": 1, "insee_code": "59350", "geo_point_2d": [50.652757, 2.973841], "user_type": "tous", "electric_car_count": 12, "id": "59350-P-019", "bike_count": 36, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "82416479200023", "dep_name": "Nord", "id_source": "SPH1", "dep_code": "59", "xlong": 2.973841, "ylat": 50.652757, "space_count": 311, "max_height": 220.0, "com_name": "Lille", "is_free": 1, "carpool_count": 5, "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "address": "Avenue Nelson Mandela, 59160, Capinghem", "park_ride_count": 311, "disable_cost": "gratuit", "name": "Saint Philibert"}, "geometry": {"type": "Point", "coordinates": [2.973841, 50.652757]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "13dc3429bbc47cbb1d7c2c6bc2e7c76c403420db", "fields": {"bin_disable_cost": 0, "insee_code": "59599", "geo_point_2d": [50.724525, 3.15888], "user_type": "tous", "cost_4h": 0.4, "electric_car_count": 3, "id": "59599-P-001", "bike_count": 15, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "TCG0001", "dep_code": "59", "xlong": 3.15888, "ylat": 50.724525, "space_count": 434, "max_height": 190.0, "com_name": "Tourcoing", "cost_3h": 0.4, "is_free": 0, "cost_2h": 0.6, "info": "Abonnement annuel mensualise 24/24 38euros", "address": "Rue de la Bienfaisance, 59200, Tourcoing", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Hotel de Ville", "cost_1h": 0.8}, "geometry": {"type": "Point", "coordinates": [3.15888, 50.724525]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "1e420fee5741d532fa7fbb9ec08956c7bb19029f", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.635426, 3.061491], "user_type": "tous", "cost_4h": 1.6, "id": "59350-P-010", "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32574193200017", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0012", "dep_code": "59", "xlong": 3.061491, "ylat": 50.635426, "space_count": 300, "max_height": 220.0, "com_name": "Lille", "cost_3h": 2.0, "is_free": 0, "cost_2h": 2.0, "info": "Pas d'abonnement", "address": "Place Rihour, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Rihour-Printemps", "cost_1h": 2.0}, "geometry": {"type": "Point", "coordinates": [3.061491, 50.635426]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "100764f764b1feec08297c0cdd650637ffcaf5e5", "fields": {"bin_disable_cost": 1, "insee_code": "59350", "geo_point_2d": [50.617532, 3.049734], "user_type": "tous", "space_count": 90, "max_height": 200.0, "com_name": "Lille", "id": "59350-P-020", "is_free": 1, "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "carpool_count": 1, "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "place Bartelemy Dorez, 59000, Lille", "park_ride_count": 90, "disable_cost": "gratuit", "name": "Porte des Postes", "dep_name": "Nord", "id_source": "PDP1", "dep_code": "59", "xlong": 3.049734, "ylat": 50.617532}, "geometry": {"type": "Point", "coordinates": [3.049734, 50.617532]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "7b980cae56fb54b2ca049ac7a059f18dabe9c468", "fields": {"bin_disable_cost": 0, "insee_code": "59512", "geo_point_2d": [50.689646, 3.179114], "user_type": "tous", "cost_4h": 1.9, "id": "59512-P-001", "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "31869720800094", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "RBX0001", "dep_code": "59", "xlong": 3.179114, "ylat": 50.689646, "space_count": 505, "max_height": 190.0, "com_name": "Roubaix", "cost_3h": 1.9, "is_free": 0, "cost_2h": 1.9, "info": "Abonnement annuel mensualise 24/24 160euros", "address": "Rue du president Vincent Auriol, 59170, Roubaix", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking CHURCHILL", "cost_1h": 1.9}, "geometry": {"type": "Point", "coordinates": [3.179114, 50.689646]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "84f13ffb3249dc0679b44401b2a256addf1f6da6", "fields": {"bin_disable_cost": 0, "insee_code": "59599", "geo_point_2d": [50.720113, 3.161136], "user_type": "tous", "cost_4h": 0.4, "electric_car_count": 3, "id": "59599-P-002", "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "TCG0003", "dep_code": "59", "xlong": 3.161136, "ylat": 50.720113, "space_count": 757, "max_height": 190.0, "com_name": "Tourcoing", "cost_3h": 0.4, "is_free": 0, "cost_2h": 0.6, "info": "Abonnement annuel mensualise 24/24 38euros", "address": "Rue des Anges, 59200, Tourcoing", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking St Christophe", "cost_1h": 0.8}, "geometry": {"type": "Point", "coordinates": [3.161136, 50.720113]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "661278bb252a6678aadf6f49a2834d9ca00ed7bf", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.635117, 3.058286], "user_type": "tous", "space_count": 300, "max_height": 190.0, "com_name": "Lille", "id": "59350-P-002", "is_free": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "address": "89 rue Nationale, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Plaza", "dep_name": "Nord", "id_source": "LIL0002", "dep_code": "59", "xlong": 3.058286, "ylat": 50.635117}, "geometry": {"type": "Point", "coordinates": [3.058286, 50.635117]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "39bbf6e6e113a7e6e9137176382c5bb66697ce20", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.63429, 3.067206], "user_type": "tous", "cost_4h": 2.4, "id": "59350-P-003", "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0003", "dep_code": "59", "xlong": 3.067206, "ylat": 50.63429, "space_count": 563, "max_height": 180.0, "com_name": "Lille", "cost_3h": 2.0, "is_free": 0, "cost_2h": 2.8, "info": "Abonnement annuel mensualise 24/24 110euros", "address": "70 rue du Molinel, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Les Tanneurs", "cost_1h": 2.8}, "geometry": {"type": "Point", "coordinates": [3.067206, 50.63429]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "9b5b96cdeeb0b851ae33deb0e8cf22da58c00d3e", "fields": {"bin_disable_cost": 1, "insee_code": "59599", "geo_point_2d": [50.736423, 3.172714], "user_type": "tous", "space_count": 42, "max_height": 210.0, "com_name": "Tourcoing", "id": "59599-P-005", "is_free": 1, "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "Rue du pont de Neuville,59200, Tourcoing", "park_ride_count": 42, "disable_cost": "gratuit", "name": "Pont de Neuville", "dep_name": "Nord", "id_source": "PDN1", "dep_code": "59", "xlong": 3.172714, "ylat": 50.736423}, "geometry": {"type": "Point", "coordinates": [3.172714, 50.736423]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "3fd8dcb04d106f47466e41f7d56a755d207ec39b", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.634176, 3.063982], "user_type": "tous", "space_count": 595, "com_name": "Lille", "id": "59350-P-013", "is_free": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "info": "Parking ferme actuellement pour cause de travaux, actif en 2021", "siret_code": "32022964405241", "address": "6 rue de la Riviere, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Bethune-Lafayette", "dep_name": "Nord", "id_source": "LIL0013", "dep_code": "59", "xlong": 3.063982, "ylat": 50.634176}, "geometry": {"type": "Point", "coordinates": [3.063982, 50.634176]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "64ebcd34b2a7d5ae145997783929bdd6da0fe6c4", "fields": {"bin_disable_cost": 1, "insee_code": "59009", "geo_point_2d": [50.604783, 3.139688], "user_type": "tous", "electric_car_count": 12, "id": "59009-P-003", "bike_count": 98, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "82416479200023", "dep_name": "Nord", "id_source": "4CA1", "dep_code": "59", "xlong": 3.139688, "ylat": 50.604783, "space_count": 2088, "max_height": 200.0, "com_name": "Villeneuve-d'Ascq", "is_free": 1, "carpool_count": 10, "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "address": "2 Avenue Henri Poincare, 59350, Villeneuve d'Ascq", "park_ride_count": 2088, "disable_cost": "gratuit", "name": "4 Cantons"}, "geometry": {"type": "Point", "coordinates": [3.139688, 50.604783]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "edeca5699ea5c9c119971fbd527b2925dcf2fb8a", "fields": {"bin_disable_cost": 1, "insee_code": "59051", "geo_point_2d": [50.528531, 2.806611], "user_type": "tous", "space_count": 166, "max_height": 200.0, "com_name": "La Bass\u00e9e", "id": "59051-P-001", "is_free": 1, "reg_name": "Hauts-de-France", "reg_code": "32", "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "Avenue Jean Baptiste Lebas, 59480, La Bassee", "park_ride_count": 166, "disable_cost": "gratuit", "name": "La Bassee", "dep_name": "Nord", "id_source": "LBA1", "dep_code": "59", "xlong": 2.806611, "ylat": 50.528531}, "geometry": {"type": "Point", "coordinates": [2.806611, 50.528531]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "edeb1d8a9d678c1355069ce43a64880059ad8439", "fields": {"bin_disable_cost": 0, "cost_24h": 22.5, "insee_code": "59350", "geo_point_2d": [50.639235, 3.050832], "user_type": "tous", "cost_4h": 1.6, "id": "59350-P-015", "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "43527259601814", "facilities_type": "enclos_en_surface", "dep_name": "Nord", "id_source": "LIL0015", "dep_code": "59", "xlong": 3.050832, "ylat": 50.639235, "space_count": 525, "com_name": "Lille", "cost_3h": 1.6, "is_free": 0, "cost_2h": 1.6, "info": "Abonnement annuel mensualise 24/24 80euros", "address": "Facade de l'Esplanade, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Liberte", "cost_1h": 1.6}, "geometry": {"type": "Point", "coordinates": [3.050832, 50.639235]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "9914285f6e3848dcce56da07c25a229d160bf98e", "fields": {"bin_disable_cost": 1, "insee_code": "59350", "geo_point_2d": [50.607857, 3.040294], "user_type": "tous", "space_count": 250, "max_height": 200.0, "com_name": "Lille", "id": "59350-P-017", "is_free": 1, "bike_count": 36, "reg_name": "Hauts-de-France", "reg_code": "32", "carpool_count": 5, "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "Boulevard Eugene Duthoit, 59000, Lille", "park_ride_count": 250, "disable_cost": "gratuit", "name": "CHU \u2013 Eurasante", "dep_name": "Nord", "id_source": "CAL1", "dep_code": "59", "xlong": 3.040294, "ylat": 50.607857}, "geometry": {"type": "Point", "coordinates": [3.040294, 50.607857]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "60cdaf8050496d1db095c674ff552158722f4c42", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.635078, 3.072647], "user_type": "tous", "cost_4h": 1.6, "id": "59350-P-004", "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "43527259601814", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0005", "dep_code": "59", "xlong": 3.072647, "ylat": 50.635078, "space_count": 374, "max_height": 185.0, "com_name": "Lille", "cost_3h": 1.8, "is_free": 0, "cost_2h": 2.4, "info": "Abonnement annuel mensualise 24/24 138 euros", "address": "Rue de Tournai, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Gare Lille Flandres", "cost_1h": 3.1}, "geometry": {"type": "Point", "coordinates": [3.072647, 50.635078]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "1d10b8125dd5bb5d41129ff79268982e728c6559", "fields": {"bin_disable_cost": 1, "insee_code": "59524", "geo_point_2d": [50.550654, 2.913822], "user_type": "tous", "space_count": 467, "max_height": 200.0, "com_name": "Sainghin-en-Weppes", "id": "59524-P-001", "is_free": 1, "bike_count": 68, "reg_name": "Hauts-de-France", "reg_code": "32", "carpool_count": 6, "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "Quai de la Deule,59136, Sainghin en weppes", "park_ride_count": 467, "disable_cost": "gratuit", "name": "Don Sainghin", "dep_name": "Nord", "id_source": "DSA1", "dep_code": "59", "xlong": 2.913822, "ylat": 50.550654}, "geometry": {"type": "Point", "coordinates": [2.913822, 50.550654]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "7d16e895716154dc3f1873ae64934bda937c7bad", "fields": {"bin_disable_cost": 0, "cost_24h": 16.0, "insee_code": "59350", "geo_point_2d": [50.641859, 3.051999], "user_type": "tous", "cost_4h": 1.2, "id": "59350-P-016", "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "43527259601814", "facilities_type": "enclos_en_surface", "dep_name": "Nord", "id_source": "LIL0016", "dep_code": "59", "xlong": 3.051999, "ylat": 50.641859, "space_count": 293, "com_name": "Lille", "cost_3h": 1.2, "is_free": 0, "cost_2h": 1.2, "address": "Facade Esplanade, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Petit Paradis", "cost_1h": 1.2}, "geometry": {"type": "Point", "coordinates": [3.051999, 50.641859]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "86add623863581eccad6c62d35aecaeb6d24f425", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.64157, 3.064014], "user_type": "tous", "cost_4h": 0.8, "id": "59350-P-008", "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0010", "dep_code": "59", "xlong": 3.064014, "ylat": 50.64157, "space_count": 312, "max_height": 190.0, "com_name": "Lille", "cost_3h": 2.4, "is_free": 0, "cost_2h": 2.4, "info": "Abonnement annuel mensualise 24/24 115 euros", "address": "Avenue du Peuple Belge, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Vieux Lille", "cost_1h": 2.0}, "geometry": {"type": "Point", "coordinates": [3.064014, 50.64157]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "49098e3024f562d9503742218d3b5327d4cf09c4", "fields": {"bin_disable_cost": 1, "insee_code": "59560", "geo_point_2d": [50.456625, 3.033634], "user_type": "tous", "space_count": 370, "max_height": 210.0, "com_name": "Seclin", "id": "59560-P-001", "is_free": 1, "bike_count": 100, "reg_name": "Hauts-de-France", "reg_code": "32", "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "Rue de Wattiessart, 59113, Seclin", "park_ride_count": 370, "disable_cost": "gratuit", "name": "Seclin", "dep_name": "Nord", "id_source": "GDS1", "dep_code": "59", "xlong": 3.033634, "ylat": 50.456625}, "geometry": {"type": "Point", "coordinates": [3.033634, 50.456625]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "ad4384f003d03436de2736ae0564a786580a9d6f", "fields": {"bin_disable_cost": 1, "insee_code": "59599", "geo_point_2d": [50.716665, 3.166386], "user_type": "tous", "space_count": 90, "com_name": "Tourcoing", "id": "59599-P-004", "is_free": 1, "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "11 Place Pierre Semard, 59200, Tourcoing", "facilities_type": "enclos_en_surface", "park_ride_count": 90, "disable_cost": "gratuit", "name": "Gare de Tourcoing", "dep_name": "Nord", "id_source": "GDT1", "dep_code": "59", "xlong": 3.166386, "ylat": 50.716665}, "geometry": {"type": "Point", "coordinates": [3.166386, 50.716665]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "cc6bf6c4b2ee1e141981f735e80552bfc5a35612", "fields": {"bin_disable_cost": 0, "insee_code": "59512", "geo_point_2d": [50.690567, 3.181478], "user_type": "tous", "space_count": 1261, "max_height": 190.0, "com_name": "Roubaix", "electric_car_count": 4, "id": "59512-P-002", "is_free": 0, "bike_count": 15, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "31869720800094", "address": "Rue Charles Watteeuw, 59170, Roubaix", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Mac Arthur Glen (Lannoy Gambetta)", "dep_name": "Nord", "id_source": "RBX0003", "dep_code": "59", "xlong": 3.181478, "ylat": 50.690567}, "geometry": {"type": "Point", "coordinates": [3.181478, 50.690567]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "d3cc646c08ff4bed451d650d7c817087daf58529", "fields": {"bin_disable_cost": 1, "insee_code": "59017", "geo_point_2d": [50.550682, 2.912855], "user_type": "tous", "space_count": 450, "max_height": 210.0, "com_name": "Armenti\u00e8res", "id": "59017-P-001", "is_free": 1, "bike_count": 68, "reg_name": "Hauts-de-France", "reg_code": "32", "carpool_count": 9, "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "Place de la Gare, 59280, Armentieres", "park_ride_count": 450, "disable_cost": "gratuit", "name": "Armentieres", "dep_name": "Nord", "id_source": "ARM1", "dep_code": "59", "xlong": 2.912855, "ylat": 50.550682}, "geometry": {"type": "Point", "coordinates": [2.912855, 50.550682]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "6e156593342098a20c49226e22d9216f8f0a6595", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.63994, 3.076132], "user_type": "tous", "cost_4h": 1.9, "electric_car_count": 3, "id": "59350-P-009", "bike_count": 15, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0008", "dep_code": "59", "xlong": 3.076132, "ylat": 50.63994, "space_count": 806, "max_height": 190.0, "com_name": "Lille", "cost_3h": 1.9, "is_free": 0, "cost_2h": 1.9, "info": "Abonnement annuel mensualise 24/24 160 euros", "address": "Avenue de Cologne, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Gare Lille Europe", "cost_1h": 1.9}, "geometry": {"type": "Point", "coordinates": [3.076132, 50.63994]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "f01ad0c4e56e3ed04736dd6f1722d183523560e8", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.636436, 3.074475], "user_type": "tous", "cost_4h": 1.9, "electric_car_count": 6, "id": "59350-P-007", "bike_count": 40, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0006", "dep_code": "59", "xlong": 3.074475, "ylat": 50.636436, "space_count": 2796, "max_height": 190.0, "com_name": "Lille", "cost_3h": 1.9, "is_free": 0, "cost_2h": 1.9, "info": "Abonnement annuel mensualise 24/24 160 euros", "address": "164 Avenue Willy Brandt, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Euralille", "cost_1h": 1.9}, "geometry": {"type": "Point", "coordinates": [3.074475, 50.636436]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "72f49b64604f64f030fdbb5aeba8a6ccc9b6e4bb", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.637454, 3.059429], "user_type": "tous", "cost_4h": 1.2, "id": "59350-P-014", "bike_count": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "43527259601814", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0014", "dep_code": "59", "xlong": 3.059429, "ylat": 50.637454, "space_count": 933, "max_height": 230.0, "com_name": "Lille", "cost_3h": 1.3, "is_free": 0, "cost_2h": 1.2, "info": "Abonnement annuel mensualise 24/24 71euros", "address": "19 place Mendes France,59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Nouveau Siecle", "cost_1h": 1.3}, "geometry": {"type": "Point", "coordinates": [3.059429, 50.637454]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "e9b9e28e92c574a4a7cec587edfa8915c1d556fd", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.638793, 3.076676], "user_type": "tous", "cost_4h": 1.9, "electric_car_count": 3, "id": "59350-P-006", "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0007", "dep_code": "59", "xlong": 3.076676, "ylat": 50.638793, "space_count": 1074, "max_height": 190.0, "com_name": "Lille", "cost_3h": 1.9, "is_free": 0, "cost_2h": 1.9, "info": "Abonnement annuel mensualise 24/24 160 euros", "address": "Boulevard de Turin, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Tours", "cost_1h": 1.9}, "geometry": {"type": "Point", "coordinates": [3.076676, 50.638793]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "b26a91ed67ba8cb8f4530c7ae0ce4c843883a4fc", "fields": {"bin_disable_cost": 1, "insee_code": "59350", "geo_point_2d": [50.650274, 3.126204], "user_type": "tous", "space_count": 550, "max_height": 210.0, "com_name": "Lille", "id": "59350-P-018", "is_free": 1, "bike_count": 45, "reg_name": "Hauts-de-France", "reg_code": "32", "carpool_count": 9, "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport", "siret_code": "82416479200023", "address": "Rue du moulin Delmar, 59650, Villeneuve d'Ascq", "park_ride_count": 550, "disable_cost": "gratuit", "name": "Les Pres 1", "dep_name": "Nord", "id_source": "LPR1", "dep_code": "59", "xlong": 3.126204, "ylat": 50.650274}, "geometry": {"type": "Point", "coordinates": [3.126204, 50.650274]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "fe1a2bba35f8e9c069832ddfcaf90997dedfb1be", "fields": {"bin_disable_cost": 0, "insee_code": "59512", "geo_point_2d": [50.690799, 3.175878], "user_type": "tous", "space_count": 80, "com_name": "Roubaix", "id": "59512-P-005", "is_free": 0, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "31869720800094", "address": "Rue de la Halle, 59170, Roubaix", "facilities_type": "enclos_en_surface", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking LA POSTE", "dep_name": "Nord", "id_source": "RBX0005", "dep_code": "59", "xlong": 3.175878, "ylat": 50.690799}, "geometry": {"type": "Point", "coordinates": [3.175878, 50.690799]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}, {"datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement", "recordid": "ae3e986b22596ae92c525d169cfbd40eda6238f8", "fields": {"bin_disable_cost": 0, "insee_code": "59350", "geo_point_2d": [50.631408, 3.078589], "user_type": "tous", "cost_4h": 1.9, "electric_car_count": 3, "id": "59350-P-005", "bike_count": 12, "reg_name": "Hauts-de-France", "reg_code": "32", "siret_code": "32022964405241", "facilities_type": "ouvrage", "dep_name": "Nord", "id_source": "LIL0004", "dep_code": "59", "xlong": 3.078589, "ylat": 50.631408, "space_count": 1165, "max_height": 280.0, "com_name": "Lille", "cost_3h": 1.9, "is_free": 0, "cost_2h": 1.9, "info": "Abonnement annuel mensualise 24/24 120 euros", "address": "Boulevard des Cites Unies, 59000, Lille", "park_ride_count": 0, "disable_cost": "normal_payant", "name": "Parking Grand Palais", "cost_1h": 1.9}, "geometry": {"type": "Point", "coordinates": [3.078589, 50.631408]}, "record_timestamp": "2023-02-03T22:00:01.913Z"}], "facet_groups": [{"name": "user_type", "facets": [{"name": "tous", "count": 35, "state": "displayed", "path": "tous"}, {"name": "abonn\u00e9s", "count": 1, "state": "displayed", "path": "abonn\u00e9s"}]}, {"name": "dep_name", "facets": [{"name": "Nord", "count": 36, "state": "displayed", "path": "Nord"}]}, {"name": "reg_name", "facets": [{"name": "Hauts-de-France", "count": 36, "state": "displayed", "path": "Hauts-de-France"}]}, {"name": "dep_code", "facets": [{"name": "59", "count": 36, "state": "refined", "path": "59"}]}, {"name": "reg_code", "facets": [{"name": "32", "count": 36, "state": "displayed", "path": "32"}]}]}
+{
+    "records": [
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "cc3a69e3950b296387a25295cecbe8c62bf15db9",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59512",
+                "geo_point_2d": [
+                    50.693243,
+                    3.177525
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.4,
+                "electric_car_count": 4,
+                "id": "59512-P-003",
+                "bike_count": 20,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "31869720800094",
+                "dep_name": "Nord",
+                "id_source": "RBX0006",
+                "dep_code": "59",
+                "xlong": 3.177525,
+                "ylat": 50.693243,
+                "space_count": 1286,
+                "max_height": 215.0,
+                "com_name": "Roubaix",
+                "cost_3h": 1.4,
+                "is_free": 0,
+                "cost_2h": 1.4,
+                "info": "Abonnement annuel mensualise 24/24 38,33euros",
+                "address": "Avenue des Nations Unies, 59170, Roubaix",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking GRAND RUE",
+                "cost_1h": 1.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.177525,
+                    50.693243
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "91e2a5d8f0eeff93c14b4163003bcda0103604c1",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.638435,
+                    3.065424
+                ],
+                "user_type": "tous",
+                "cost_4h": 2.0,
+                "electric_car_count": 3,
+                "id": "59350-P-012",
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "43527259601814",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0009",
+                "dep_code": "59",
+                "xlong": 3.065424,
+                "ylat": 50.638435,
+                "space_count": 546,
+                "max_height": 190.0,
+                "com_name": "Lille",
+                "cost_3h": 2.1,
+                "is_free": 0,
+                "cost_2h": 1.6,
+                "info": "Abonnement annuel mensualise 24/24 110euros",
+                "address": "Avenue Carnot, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Opera",
+                "cost_1h": 1.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.065424,
+                    50.638435
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "52f18714db63c20a8bd2cf1e241c820f0eb99b2d",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.617395,
+                    3.063771
+                ],
+                "user_type": "tous",
+                "space_count": 100,
+                "max_height": 200.0,
+                "com_name": "Lille",
+                "id": "59350-P-021",
+                "is_free": 1,
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "carpool_count": 2,
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "Boulevard d'Alsace, 59000, Lille",
+                "park_ride_count": 100,
+                "disable_cost": "gratuit",
+                "name": "Porte d Arras",
+                "dep_name": "Nord",
+                "id_source": "PDA1",
+                "dep_code": "59",
+                "xlong": 3.063771,
+                "ylat": 50.617395
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.063771,
+                    50.617395
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "ecc5ebd8a3a34d6bd510be29df463b76ce5f5db3",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.631121,
+                    3.063227
+                ],
+                "user_type": "tous",
+                "cost_4h": 2.0,
+                "electric_car_count": 3,
+                "id": "59350-P-001",
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "43527259601814",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0001",
+                "dep_code": "59",
+                "xlong": 3.063227,
+                "ylat": 50.631121,
+                "space_count": 353,
+                "max_height": 190.0,
+                "com_name": "Lille",
+                "cost_3h": 2.1,
+                "is_free": 0,
+                "cost_2h": 1.7,
+                "info": "Abonnement annuel mensualise 24/24 100 euros",
+                "address": "Place de la Republique, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Republique",
+                "cost_1h": 1.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.063227,
+                    50.631121
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "7b1198b55a8774f208233294cfc5abaf0d1d2ea3",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.637164,
+                    3.063572
+                ],
+                "user_type": "tous",
+                "cost_4h": 2.4,
+                "id": "59350-P-011",
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0011",
+                "dep_code": "59",
+                "xlong": 3.063572,
+                "ylat": 50.637164,
+                "space_count": 422,
+                "max_height": 180.0,
+                "com_name": "Lille",
+                "cost_3h": 2.0,
+                "is_free": 0,
+                "cost_2h": 2.8,
+                "info": "Abonnement annuel mensualise 24/24 150 euros",
+                "address": "Place du General de Gaulle, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Grand Place",
+                "cost_1h": 2.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.063572,
+                    50.637164
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "a77c7450b670bb946ff095266d7972608ed67bad",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59512",
+                "geo_point_2d": [
+                    50.691085,
+                    3.172115
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.2,
+                "id": "59512-P-004",
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "31869720800094",
+                "facilities_type": "enclos_en_surface",
+                "dep_name": "Nord",
+                "id_source": "RBX0007",
+                "dep_code": "59",
+                "xlong": 3.172115,
+                "ylat": 50.691085,
+                "space_count": 80,
+                "com_name": "Roubaix",
+                "cost_3h": 1.2,
+                "is_free": 0,
+                "cost_2h": 1.2,
+                "info": "Abonnement non communique",
+                "address": "Rue Neuve, 59170, Roubaix",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking CENTRE",
+                "cost_1h": 1.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.172115,
+                    50.691085
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "6a14fd5bd6a704f2269a5242776ac60b9888f459",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59599",
+                "geo_point_2d": [
+                    50.721884,
+                    3.163254
+                ],
+                "user_type": "abonn\u00e9s",
+                "cost_4h": 0.4,
+                "electric_car_count": 3,
+                "id": "59599-P-003",
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "TCG0002",
+                "dep_code": "59",
+                "xlong": 3.163254,
+                "ylat": 50.721884,
+                "space_count": 273,
+                "max_height": 190.0,
+                "com_name": "Tourcoing",
+                "cost_3h": 0.4,
+                "is_free": 0,
+                "cost_2h": 0.6,
+                "info": "Abonnement annuel mensualise 24/24 38euros",
+                "address": "Avenue Allende, 59200, Tourcoing",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Miss Cavell",
+                "cost_1h": 0.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.163254,
+                    50.721884
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "d2c40fa7c3c23bf9a2bf881990ae082f7df938b9",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.652757,
+                    2.973841
+                ],
+                "user_type": "tous",
+                "electric_car_count": 12,
+                "id": "59350-P-019",
+                "bike_count": 36,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "82416479200023",
+                "dep_name": "Nord",
+                "id_source": "SPH1",
+                "dep_code": "59",
+                "xlong": 2.973841,
+                "ylat": 50.652757,
+                "space_count": 311,
+                "max_height": 220.0,
+                "com_name": "Lille",
+                "is_free": 1,
+                "carpool_count": 5,
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "address": "Avenue Nelson Mandela, 59160, Capinghem",
+                "park_ride_count": 311,
+                "disable_cost": "gratuit",
+                "name": "Saint Philibert"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.973841,
+                    50.652757
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "13dc3429bbc47cbb1d7c2c6bc2e7c76c403420db",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59599",
+                "geo_point_2d": [
+                    50.724525,
+                    3.15888
+                ],
+                "user_type": "tous",
+                "cost_4h": 0.4,
+                "electric_car_count": 3,
+                "id": "59599-P-001",
+                "bike_count": 15,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "TCG0001",
+                "dep_code": "59",
+                "xlong": 3.15888,
+                "ylat": 50.724525,
+                "space_count": 434,
+                "max_height": 190.0,
+                "com_name": "Tourcoing",
+                "cost_3h": 0.4,
+                "is_free": 0,
+                "cost_2h": 0.6,
+                "info": "Abonnement annuel mensualise 24/24 38euros",
+                "address": "Rue de la Bienfaisance, 59200, Tourcoing",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Hotel de Ville",
+                "cost_1h": 0.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.15888,
+                    50.724525
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "1e420fee5741d532fa7fbb9ec08956c7bb19029f",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.635426,
+                    3.061491
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.6,
+                "id": "59350-P-010",
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32574193200017",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0012",
+                "dep_code": "59",
+                "xlong": 3.061491,
+                "ylat": 50.635426,
+                "space_count": 300,
+                "max_height": 220.0,
+                "com_name": "Lille",
+                "cost_3h": 2.0,
+                "is_free": 0,
+                "cost_2h": 2.0,
+                "info": "Pas d'abonnement",
+                "address": "Place Rihour, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Rihour-Printemps",
+                "cost_1h": 2.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.061491,
+                    50.635426
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "100764f764b1feec08297c0cdd650637ffcaf5e5",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.617532,
+                    3.049734
+                ],
+                "user_type": "tous",
+                "space_count": 90,
+                "max_height": 200.0,
+                "com_name": "Lille",
+                "id": "59350-P-020",
+                "is_free": 1,
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "carpool_count": 1,
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "place Bartelemy Dorez, 59000, Lille",
+                "park_ride_count": 90,
+                "disable_cost": "gratuit",
+                "name": "Porte des Postes",
+                "dep_name": "Nord",
+                "id_source": "PDP1",
+                "dep_code": "59",
+                "xlong": 3.049734,
+                "ylat": 50.617532
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.049734,
+                    50.617532
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "7b980cae56fb54b2ca049ac7a059f18dabe9c468",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59512",
+                "geo_point_2d": [
+                    50.689646,
+                    3.179114
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.9,
+                "id": "59512-P-001",
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "31869720800094",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "RBX0001",
+                "dep_code": "59",
+                "xlong": 3.179114,
+                "ylat": 50.689646,
+                "space_count": 505,
+                "max_height": 190.0,
+                "com_name": "Roubaix",
+                "cost_3h": 1.9,
+                "is_free": 0,
+                "cost_2h": 1.9,
+                "info": "Abonnement annuel mensualise 24/24 160euros",
+                "address": "Rue du president Vincent Auriol, 59170, Roubaix",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking CHURCHILL",
+                "cost_1h": 1.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.179114,
+                    50.689646
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "84f13ffb3249dc0679b44401b2a256addf1f6da6",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59599",
+                "geo_point_2d": [
+                    50.720113,
+                    3.161136
+                ],
+                "user_type": "tous",
+                "cost_4h": 0.4,
+                "electric_car_count": 3,
+                "id": "59599-P-002",
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "TCG0003",
+                "dep_code": "59",
+                "xlong": 3.161136,
+                "ylat": 50.720113,
+                "space_count": 757,
+                "max_height": 190.0,
+                "com_name": "Tourcoing",
+                "cost_3h": 0.4,
+                "is_free": 0,
+                "cost_2h": 0.6,
+                "info": "Abonnement annuel mensualise 24/24 38euros",
+                "address": "Rue des Anges, 59200, Tourcoing",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking St Christophe",
+                "cost_1h": 0.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.161136,
+                    50.720113
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "661278bb252a6678aadf6f49a2834d9ca00ed7bf",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.635117,
+                    3.058286
+                ],
+                "user_type": "tous",
+                "space_count": 300,
+                "max_height": 190.0,
+                "com_name": "Lille",
+                "id": "59350-P-002",
+                "is_free": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "address": "89 rue Nationale, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Plaza",
+                "dep_name": "Nord",
+                "id_source": "LIL0002",
+                "dep_code": "59",
+                "xlong": 3.058286,
+                "ylat": 50.635117
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.058286,
+                    50.635117
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "39bbf6e6e113a7e6e9137176382c5bb66697ce20",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.63429,
+                    3.067206
+                ],
+                "user_type": "tous",
+                "cost_4h": 2.4,
+                "id": "59350-P-003",
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0003",
+                "dep_code": "59",
+                "xlong": 3.067206,
+                "ylat": 50.63429,
+                "space_count": 563,
+                "max_height": 180.0,
+                "com_name": "Lille",
+                "cost_3h": 2.0,
+                "is_free": 0,
+                "cost_2h": 2.8,
+                "info": "Abonnement annuel mensualise 24/24 110euros",
+                "address": "70 rue du Molinel, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Les Tanneurs",
+                "cost_1h": 2.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.067206,
+                    50.63429
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "9b5b96cdeeb0b851ae33deb0e8cf22da58c00d3e",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59599",
+                "geo_point_2d": [
+                    50.736423,
+                    3.172714
+                ],
+                "user_type": "tous",
+                "space_count": 42,
+                "max_height": 210.0,
+                "com_name": "Tourcoing",
+                "id": "59599-P-005",
+                "is_free": 1,
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "Rue du pont de Neuville,59200, Tourcoing",
+                "park_ride_count": 42,
+                "disable_cost": "gratuit",
+                "name": "Pont de Neuville",
+                "dep_name": "Nord",
+                "id_source": "PDN1",
+                "dep_code": "59",
+                "xlong": 3.172714,
+                "ylat": 50.736423
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.172714,
+                    50.736423
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "3fd8dcb04d106f47466e41f7d56a755d207ec39b",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.634176,
+                    3.063982
+                ],
+                "user_type": "tous",
+                "space_count": 595,
+                "com_name": "Lille",
+                "id": "59350-P-013",
+                "is_free": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "info": "Parking ferme actuellement pour cause de travaux, actif en 2021",
+                "siret_code": "32022964405241",
+                "address": "6 rue de la Riviere, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Bethune-Lafayette",
+                "dep_name": "Nord",
+                "id_source": "LIL0013",
+                "dep_code": "59",
+                "xlong": 3.063982,
+                "ylat": 50.634176
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.063982,
+                    50.634176
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "64ebcd34b2a7d5ae145997783929bdd6da0fe6c4",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59009",
+                "geo_point_2d": [
+                    50.604783,
+                    3.139688
+                ],
+                "user_type": "tous",
+                "electric_car_count": 12,
+                "id": "59009-P-003",
+                "bike_count": 98,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "82416479200023",
+                "dep_name": "Nord",
+                "id_source": "4CA1",
+                "dep_code": "59",
+                "xlong": 3.139688,
+                "ylat": 50.604783,
+                "space_count": 2088,
+                "max_height": 200.0,
+                "com_name": "Villeneuve-d'Ascq",
+                "is_free": 1,
+                "carpool_count": 10,
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "address": "2 Avenue Henri Poincare, 59350, Villeneuve d'Ascq",
+                "park_ride_count": 2088,
+                "disable_cost": "gratuit",
+                "name": "4 Cantons"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.139688,
+                    50.604783
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "edeca5699ea5c9c119971fbd527b2925dcf2fb8a",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59051",
+                "geo_point_2d": [
+                    50.528531,
+                    2.806611
+                ],
+                "user_type": "tous",
+                "space_count": 166,
+                "max_height": 200.0,
+                "com_name": "La Bass\u00e9e",
+                "id": "59051-P-001",
+                "is_free": 1,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "Avenue Jean Baptiste Lebas, 59480, La Bassee",
+                "park_ride_count": 166,
+                "disable_cost": "gratuit",
+                "name": "La Bassee",
+                "dep_name": "Nord",
+                "id_source": "LBA1",
+                "dep_code": "59",
+                "xlong": 2.806611,
+                "ylat": 50.528531
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.806611,
+                    50.528531
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "edeb1d8a9d678c1355069ce43a64880059ad8439",
+            "fields": {
+                "bin_disable_cost": 0,
+                "cost_24h": 22.5,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.639235,
+                    3.050832
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.6,
+                "id": "59350-P-015",
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "43527259601814",
+                "facilities_type": "enclos_en_surface",
+                "dep_name": "Nord",
+                "id_source": "LIL0015",
+                "dep_code": "59",
+                "xlong": 3.050832,
+                "ylat": 50.639235,
+                "space_count": 525,
+                "com_name": "Lille",
+                "cost_3h": 1.6,
+                "is_free": 0,
+                "cost_2h": 1.6,
+                "info": "Abonnement annuel mensualise 24/24 80euros",
+                "address": "Facade de l'Esplanade, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Liberte",
+                "cost_1h": 1.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.050832,
+                    50.639235
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "9914285f6e3848dcce56da07c25a229d160bf98e",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.607857,
+                    3.040294
+                ],
+                "user_type": "tous",
+                "space_count": 250,
+                "max_height": 200.0,
+                "com_name": "Lille",
+                "id": "59350-P-017",
+                "is_free": 1,
+                "bike_count": 36,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "carpool_count": 5,
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "Boulevard Eugene Duthoit, 59000, Lille",
+                "park_ride_count": 250,
+                "disable_cost": "gratuit",
+                "name": "CHU \u2013 Eurasante",
+                "dep_name": "Nord",
+                "id_source": "CAL1",
+                "dep_code": "59",
+                "xlong": 3.040294,
+                "ylat": 50.607857
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.040294,
+                    50.607857
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "60cdaf8050496d1db095c674ff552158722f4c42",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.635078,
+                    3.072647
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.6,
+                "id": "59350-P-004",
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "43527259601814",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0005",
+                "dep_code": "59",
+                "xlong": 3.072647,
+                "ylat": 50.635078,
+                "space_count": 374,
+                "max_height": 185.0,
+                "com_name": "Lille",
+                "cost_3h": 1.8,
+                "is_free": 0,
+                "cost_2h": 2.4,
+                "info": "Abonnement annuel mensualise 24/24 138 euros",
+                "address": "Rue de Tournai, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Gare Lille Flandres",
+                "cost_1h": 3.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.072647,
+                    50.635078
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "1d10b8125dd5bb5d41129ff79268982e728c6559",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59524",
+                "geo_point_2d": [
+                    50.550654,
+                    2.913822
+                ],
+                "user_type": "tous",
+                "space_count": 467,
+                "max_height": 200.0,
+                "com_name": "Sainghin-en-Weppes",
+                "id": "59524-P-001",
+                "is_free": 1,
+                "bike_count": 68,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "carpool_count": 6,
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "Quai de la Deule,59136, Sainghin en weppes",
+                "park_ride_count": 467,
+                "disable_cost": "gratuit",
+                "name": "Don Sainghin",
+                "dep_name": "Nord",
+                "id_source": "DSA1",
+                "dep_code": "59",
+                "xlong": 2.913822,
+                "ylat": 50.550654
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.913822,
+                    50.550654
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "7d16e895716154dc3f1873ae64934bda937c7bad",
+            "fields": {
+                "bin_disable_cost": 0,
+                "cost_24h": 16.0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.641859,
+                    3.051999
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.2,
+                "id": "59350-P-016",
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "43527259601814",
+                "facilities_type": "enclos_en_surface",
+                "dep_name": "Nord",
+                "id_source": "LIL0016",
+                "dep_code": "59",
+                "xlong": 3.051999,
+                "ylat": 50.641859,
+                "space_count": 293,
+                "com_name": "Lille",
+                "cost_3h": 1.2,
+                "is_free": 0,
+                "cost_2h": 1.2,
+                "address": "Facade Esplanade, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Petit Paradis",
+                "cost_1h": 1.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.051999,
+                    50.641859
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "86add623863581eccad6c62d35aecaeb6d24f425",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.64157,
+                    3.064014
+                ],
+                "user_type": "tous",
+                "cost_4h": 0.8,
+                "id": "59350-P-008",
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0010",
+                "dep_code": "59",
+                "xlong": 3.064014,
+                "ylat": 50.64157,
+                "space_count": 312,
+                "max_height": 190.0,
+                "com_name": "Lille",
+                "cost_3h": 2.4,
+                "is_free": 0,
+                "cost_2h": 2.4,
+                "info": "Abonnement annuel mensualise 24/24 115 euros",
+                "address": "Avenue du Peuple Belge, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Vieux Lille",
+                "cost_1h": 2.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.064014,
+                    50.64157
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "49098e3024f562d9503742218d3b5327d4cf09c4",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59560",
+                "geo_point_2d": [
+                    50.456625,
+                    3.033634
+                ],
+                "user_type": "tous",
+                "space_count": 370,
+                "max_height": 210.0,
+                "com_name": "Seclin",
+                "id": "59560-P-001",
+                "is_free": 1,
+                "bike_count": 100,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "Rue de Wattiessart, 59113, Seclin",
+                "park_ride_count": 370,
+                "disable_cost": "gratuit",
+                "name": "Seclin",
+                "dep_name": "Nord",
+                "id_source": "GDS1",
+                "dep_code": "59",
+                "xlong": 3.033634,
+                "ylat": 50.456625
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.033634,
+                    50.456625
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "ad4384f003d03436de2736ae0564a786580a9d6f",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59599",
+                "geo_point_2d": [
+                    50.716665,
+                    3.166386
+                ],
+                "user_type": "tous",
+                "space_count": 90,
+                "com_name": "Tourcoing",
+                "id": "59599-P-004",
+                "is_free": 1,
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "11 Place Pierre Semard, 59200, Tourcoing",
+                "facilities_type": "enclos_en_surface",
+                "park_ride_count": 90,
+                "disable_cost": "gratuit",
+                "name": "Gare de Tourcoing",
+                "dep_name": "Nord",
+                "id_source": "GDT1",
+                "dep_code": "59",
+                "xlong": 3.166386,
+                "ylat": 50.716665
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.166386,
+                    50.716665
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "cc6bf6c4b2ee1e141981f735e80552bfc5a35612",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59512",
+                "geo_point_2d": [
+                    50.690567,
+                    3.181478
+                ],
+                "user_type": "tous",
+                "space_count": 1261,
+                "max_height": 190.0,
+                "com_name": "Roubaix",
+                "electric_car_count": 4,
+                "id": "59512-P-002",
+                "is_free": 0,
+                "bike_count": 15,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "31869720800094",
+                "address": "Rue Charles Watteeuw, 59170, Roubaix",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Mac Arthur Glen (Lannoy Gambetta)",
+                "dep_name": "Nord",
+                "id_source": "RBX0003",
+                "dep_code": "59",
+                "xlong": 3.181478,
+                "ylat": 50.690567
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.181478,
+                    50.690567
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "d3cc646c08ff4bed451d650d7c817087daf58529",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59017",
+                "geo_point_2d": [
+                    50.550682,
+                    2.912855
+                ],
+                "user_type": "tous",
+                "space_count": 450,
+                "max_height": 210.0,
+                "com_name": "Armenti\u00e8res",
+                "id": "59017-P-001",
+                "is_free": 1,
+                "bike_count": 68,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "carpool_count": 9,
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "Place de la Gare, 59280, Armentieres",
+                "park_ride_count": 450,
+                "disable_cost": "gratuit",
+                "name": "Armentieres",
+                "dep_name": "Nord",
+                "id_source": "ARM1",
+                "dep_code": "59",
+                "xlong": 2.912855,
+                "ylat": 50.550682
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.912855,
+                    50.550682
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "6e156593342098a20c49226e22d9216f8f0a6595",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.63994,
+                    3.076132
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.9,
+                "electric_car_count": 3,
+                "id": "59350-P-009",
+                "bike_count": 15,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0008",
+                "dep_code": "59",
+                "xlong": 3.076132,
+                "ylat": 50.63994,
+                "space_count": 806,
+                "max_height": 190.0,
+                "com_name": "Lille",
+                "cost_3h": 1.9,
+                "is_free": 0,
+                "cost_2h": 1.9,
+                "info": "Abonnement annuel mensualise 24/24 160 euros",
+                "address": "Avenue de Cologne, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Gare Lille Europe",
+                "cost_1h": 1.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.076132,
+                    50.63994
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "f01ad0c4e56e3ed04736dd6f1722d183523560e8",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.636436,
+                    3.074475
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.9,
+                "electric_car_count": 6,
+                "id": "59350-P-007",
+                "bike_count": 40,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0006",
+                "dep_code": "59",
+                "xlong": 3.074475,
+                "ylat": 50.636436,
+                "space_count": 2796,
+                "max_height": 190.0,
+                "com_name": "Lille",
+                "cost_3h": 1.9,
+                "is_free": 0,
+                "cost_2h": 1.9,
+                "info": "Abonnement annuel mensualise 24/24 160 euros",
+                "address": "164 Avenue Willy Brandt, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Euralille",
+                "cost_1h": 1.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.074475,
+                    50.636436
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "72f49b64604f64f030fdbb5aeba8a6ccc9b6e4bb",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.637454,
+                    3.059429
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.2,
+                "id": "59350-P-014",
+                "bike_count": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "43527259601814",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0014",
+                "dep_code": "59",
+                "xlong": 3.059429,
+                "ylat": 50.637454,
+                "space_count": 933,
+                "max_height": 230.0,
+                "com_name": "Lille",
+                "cost_3h": 1.3,
+                "is_free": 0,
+                "cost_2h": 1.2,
+                "info": "Abonnement annuel mensualise 24/24 71euros",
+                "address": "19 place Mendes France,59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Nouveau Siecle",
+                "cost_1h": 1.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.059429,
+                    50.637454
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "e9b9e28e92c574a4a7cec587edfa8915c1d556fd",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.638793,
+                    3.076676
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.9,
+                "electric_car_count": 3,
+                "id": "59350-P-006",
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0007",
+                "dep_code": "59",
+                "xlong": 3.076676,
+                "ylat": 50.638793,
+                "space_count": 1074,
+                "max_height": 190.0,
+                "com_name": "Lille",
+                "cost_3h": 1.9,
+                "is_free": 0,
+                "cost_2h": 1.9,
+                "info": "Abonnement annuel mensualise 24/24 160 euros",
+                "address": "Boulevard de Turin, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Tours",
+                "cost_1h": 1.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.076676,
+                    50.638793
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "b26a91ed67ba8cb8f4530c7ae0ce4c843883a4fc",
+            "fields": {
+                "bin_disable_cost": 1,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.650274,
+                    3.126204
+                ],
+                "user_type": "tous",
+                "space_count": 550,
+                "max_height": 210.0,
+                "com_name": "Lille",
+                "id": "59350-P-018",
+                "is_free": 1,
+                "bike_count": 45,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "carpool_count": 9,
+                "info": "Parc relais - gratuite pour les usagers avec un abonnement ou ticket de transport",
+                "siret_code": "82416479200023",
+                "address": "Rue du moulin Delmar, 59650, Villeneuve d'Ascq",
+                "park_ride_count": 550,
+                "disable_cost": "gratuit",
+                "name": "Les Pres 1",
+                "dep_name": "Nord",
+                "id_source": "LPR1",
+                "dep_code": "59",
+                "xlong": 3.126204,
+                "ylat": 50.650274
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.126204,
+                    50.650274
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "fe1a2bba35f8e9c069832ddfcaf90997dedfb1be",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59512",
+                "geo_point_2d": [
+                    50.690799,
+                    3.175878
+                ],
+                "user_type": "tous",
+                "space_count": 80,
+                "com_name": "Roubaix",
+                "id": "59512-P-005",
+                "is_free": 0,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "31869720800094",
+                "address": "Rue de la Halle, 59170, Roubaix",
+                "facilities_type": "enclos_en_surface",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking LA POSTE",
+                "dep_name": "Nord",
+                "id_source": "RBX0005",
+                "dep_code": "59",
+                "xlong": 3.175878,
+                "ylat": 50.690799
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.175878,
+                    50.690799
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        },
+        {
+            "datasetid": "mobilityref-france-base-nationale-des-lieux-de-stationnement",
+            "recordid": "ae3e986b22596ae92c525d169cfbd40eda6238f8",
+            "fields": {
+                "bin_disable_cost": 0,
+                "insee_code": "59350",
+                "geo_point_2d": [
+                    50.631408,
+                    3.078589
+                ],
+                "user_type": "tous",
+                "cost_4h": 1.9,
+                "electric_car_count": 3,
+                "id": "59350-P-005",
+                "bike_count": 12,
+                "reg_name": "Hauts-de-France",
+                "reg_code": "32",
+                "siret_code": "32022964405241",
+                "facilities_type": "ouvrage",
+                "dep_name": "Nord",
+                "id_source": "LIL0004",
+                "dep_code": "59",
+                "xlong": 3.078589,
+                "ylat": 50.631408,
+                "space_count": 1165,
+                "max_height": 280.0,
+                "com_name": "Lille",
+                "cost_3h": 1.9,
+                "is_free": 0,
+                "cost_2h": 1.9,
+                "info": "Abonnement annuel mensualise 24/24 120 euros",
+                "address": "Boulevard des Cites Unies, 59000, Lille",
+                "park_ride_count": 0,
+                "disable_cost": "normal_payant",
+                "name": "Parking Grand Palais",
+                "cost_1h": 1.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.078589,
+                    50.631408
+                ]
+            },
+            "record_timestamp": "2023-02-03T22:00:01.913Z"
+        }
+    ],
+    "facet_groups": [
+        {
+            "name": "user_type",
+            "facets": [
+                {
+                    "name": "tous",
+                    "count": 35,
+                    "state": "displayed",
+                    "path": "tous"
+                },
+                {
+                    "name": "abonn\u00e9s",
+                    "count": 1,
+                    "state": "displayed",
+                    "path": "abonn\u00e9s"
+                }
+            ]
+        },
+        {
+            "name": "dep_name",
+            "facets": [
+                {
+                    "name": "Nord",
+                    "count": 36,
+                    "state": "displayed",
+                    "path": "Nord"
+                }
+            ]
+        },
+        {
+            "name": "reg_name",
+            "facets": [
+                {
+                    "name": "Hauts-de-France",
+                    "count": 36,
+                    "state": "displayed",
+                    "path": "Hauts-de-France"
+                }
+            ]
+        },
+        {
+            "name": "dep_code",
+            "facets": [
+                {
+                    "name": "59",
+                    "count": 36,
+                    "state": "refined",
+                    "path": "59"
+                }
+            ]
+        },
+        {
+            "name": "reg_code",
+            "facets": [
+                {
+                    "name": "32",
+                    "count": 36,
+                    "state": "displayed",
+                    "path": "32"
+                }
+            ]
+        }
+    ]
+}
