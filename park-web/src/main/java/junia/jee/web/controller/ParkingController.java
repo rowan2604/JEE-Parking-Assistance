@@ -1,27 +1,34 @@
 package junia.jee.web.controller;
+
 import junia.park.core.entity.Localisation;
 import junia.park.core.entity.Parking;
-import junia.park.core.entity.Ville;
 import junia.park.core.service.LocalisationService;
-import junia.park.core.service.ParkingService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.Optional;
 
 @Controller
 public class ParkingController {
+    public ParkingController(LocalisationService localisationService) {
+        this.localisationService = localisationService;
+    }
 
-    private ParkingService parkingService;
-    private LocalisationService localisationService;
+    LocalisationService localisationService;
 
-
-    @GetMapping("/parking/{id}")
+    @RequestMapping(value = "/parking/{id}",method = RequestMethod.GET)
     public String getParking(@PathVariable("id") int id, ModelMap modelMap) {
-        Optional<Parking> parking = parkingService.getParkingById(id);
+        Optional<Localisation> localisation = localisationService.getLocalisationById(id);
+        Parking parking = localisation.get().getParking();
         modelMap.addAttribute("parking", parking);
+        modelMap.addAttribute("localisation", localisation);
+        modelMap.addAttribute("adresse", localisation.get().getAdresse());
+        String photoPath = localisation.get().getPhoto();
+        photoPath = photoPath.substring(5);
+        modelMap.addAttribute("photoPath", photoPath);
         return "parking";
     }
 }

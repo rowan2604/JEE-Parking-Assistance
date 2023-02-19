@@ -29,7 +29,7 @@ public class Localisation{
 
     @ManyToOne
     private Ville ville;
-    @OneToOne
+    @OneToOne(mappedBy = "localisation")
     private Parking parking;
     public Localisation() {
     }

@@ -7,7 +7,7 @@
 
     <title>Parking</title>
 
-    <link href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css"	rel="stylesheet">
+    <link href="../webjars/bootstrap/3.3.7-1/css/bootstrap.min.css"	rel="stylesheet">
 
     <style>
         body {
@@ -28,10 +28,16 @@
     </div>
 </nav>
 <div>
-    <h1>Nom du parking</h1>
-    <p>Adresse du parking</p>
-    <p>Nombre de places disponibles : X</p>
-    <img src="lien_vers_l_image_du_parking.jpg" alt="Photo du parking">
+    <script>
+        let name = "Nathan";
+    </script>
+
+    <h1>${parking.nameParking}</h1>
+    <p>Adresse : ${adresse}</p>
+    <p>Nombre de places disponibles : ${parking.nbrPlace}</p>
+    <img src="https://github.com/rowan2604/JEE-Parking-Assistance/blob/2594b39e9c260be26c87ec6d2df8a28c37f6e669/photos/$photoPath" alt="${parking.nameParking}">
+    https://github.com/rowan2604/JEE-Parking-Assistance/blob/2594b39e9c260be26c87ec6d2df8a28c37f6e669/photos
+
 </div>
 
 

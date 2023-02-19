@@ -18,7 +18,7 @@ public class PlaceSpeciales{
     @OneToOne
     private Parking parking;
     private int nbrHandicapes;
-    private int nbrPVoiturelaceElectriques;
+    private int nbrVoitureElectrique;
     private int nbrVelo;
     private int nbrCovoiturage;
 
@@ -38,12 +38,12 @@ public class PlaceSpeciales{
         this.nbrHandicapes = nbrHandicapes;
     }
 
-    public int getNbrPVoiturelaceElectriques() {
-        return nbrPVoiturelaceElectriques;
+    public int getNbrVoitureElectrique() {
+        return nbrVoitureElectrique;
     }
 
-    public void setNbrPVoiturelaceElectriques(int nbrPVoiturelaceElectriques) {
-        this.nbrPVoiturelaceElectriques = nbrPVoiturelaceElectriques;
+    public void setNbrVoitureElectrique(int nbrVoitureElectrique) {
+        this.nbrVoitureElectrique = nbrVoitureElectrique;
     }
 
     public int getNbrVelo() {
