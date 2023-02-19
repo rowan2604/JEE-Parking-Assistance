@@ -13,9 +13,9 @@ public class AppConfig {
 
     public static final String DB_SCHEMA = "bdd_parkassist";
 
-    public static final String DB_USER = "roro";
+    public static final String DB_USER = "root";
 
-    public static final String DB_PASSWORD = "rowampro";
+    public static final String DB_PASSWORD = "";
 
 
     @Bean

@@ -13,7 +13,9 @@
         body {
             padding-top: 50px;
         }
-
+        input{
+            width : 100%;
+        }
     </style>
 
 
@@ -29,25 +31,66 @@
     </div>
 </nav>
 
-<div class="container">
+<div class="container" >
 
     <div class="jumbotron">
         <h1>List of Parking</h1>
 
     </div>
 
+<script>
+    function myFunction() {
+        // Declare variables
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
 
-    <table class="table table-striped">
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+    <script>
+        function openWindow() {
+            window.open("http://localhost:8080/park_web_war_exploded/list");
+        }
+    </script>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Rechercher par Villes..">
+
+    <table class="table table-striped" id="myTable">
+        <tr>
+            <th>Ville</th>
+            <th>Localisation</th>
+            <th>Nombre de parking</th>
+            <th>Nombre de places</th>
+
+        </tr>
         #foreach($ville in $villes)
             <tr>
+
                 <td>$ville.nom</td>
+
                 <td>
                     #foreach($localisation in $ville.localisations)
-                        Localisation : $localisation.adresse :
+                        <a onclick="openWindow();" href="#"> $localisation.adresse</a>
+                        <br>
                        <br/>
                     #end
                 </td>
-                <td><a href="$ville.idVille/delete" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></a></td>
+                <td>$ville.nbrParking</td>
+                <td>$ville.nbrPlace</td>
             </tr>
         #end
     </table>
