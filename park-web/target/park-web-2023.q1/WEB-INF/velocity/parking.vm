@@ -35,8 +35,7 @@
     <h1>${parking.nameParking}</h1>
     <p>Adresse : ${adresse}</p>
     <p>Nombre de places disponibles : ${parking.nbrPlace}</p>
-    <img src="https://github.com/rowan2604/JEE-Parking-Assistance/blob/2594b39e9c260be26c87ec6d2df8a28c37f6e669/photos/$photoPath" alt="${parking.nameParking}">
-    https://github.com/rowan2604/JEE-Parking-Assistance/blob/2594b39e9c260be26c87ec6d2df8a28c37f6e669/photos
+    <img src="photos/${photoPath}.jpg" alt="${parking.nameParking}">
 
 </div>
 
