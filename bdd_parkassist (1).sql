@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : dim. 19 fév. 2023 à 15:55
+-- Généré le : dim. 19 fév. 2023 à 16:47
 -- Version du serveur : 8.0.31
 -- Version de PHP : 8.0.26
 
@@ -48,18 +48,18 @@ INSERT INTO `hibernate_sequence` (`next_val`) VALUES
 DROP TABLE IF EXISTS `localisation`;
 CREATE TABLE IF NOT EXISTS `localisation` (
   `id` int NOT NULL,
-  `coordoneeGps` varchar(45) DEFAULT NULL,
   `adresse` varchar(45) DEFAULT NULL,
   `photo` varchar(45) DEFAULT NULL,
   `ville_id` int NOT NULL,
-  `cooGPS` varchar(255) DEFAULT NULL,
   `lienPhoto` varchar(255) DEFAULT NULL,
   `parking_id` int DEFAULT NULL,
   `parking_idParking` int DEFAULT NULL,
   `ville_idVille` int DEFAULT NULL,
   `coordoneeGpsGPS` varchar(255) DEFAULT NULL,
+  `xlong` float DEFAULT NULL,
+  `ylat` float DEFAULT NULL,
+  `coordoneeGPS` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `idx_localisation_coordoneeGps` (`coordoneeGps`),
   KEY `idx_localisation_adresse` (`adresse`),
   KEY `idx_localisation_photo` (`photo`),
   KEY `FKuiwvctes8klw3btg0at7ws4i` (`parking_idParking`),
@@ -72,43 +72,43 @@ CREATE TABLE IF NOT EXISTS `localisation` (
 -- Déchargement des données de la table `localisation`
 --
 
-INSERT INTO `localisation` (`id`, `coordoneeGps`, `adresse`, `photo`, `ville_id`, `cooGPS`, `lienPhoto`, `parking_id`, `parking_idParking`, `ville_idVille`, `coordoneeGpsGPS`) VALUES
-(22, NULL, 'Avenue des Nations Unies, 59170, Roubaix', 'photoParking GRAND RUE', 0, NULL, NULL, NULL, NULL, NULL, NULL),
-(25, NULL, 'Avenue Carnot, 59000, Lille', 'photoParking Opera', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(28, NULL, 'Boulevard dAlsace, 59000, Lille', 'photoPorte d Arras', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(31, NULL, 'Place de la Republique, 59000, Lille', 'photoParking Republique', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(34, NULL, 'Place du General de Gaulle, 59000, Lille', 'photoParking Grand Place', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(37, NULL, 'Rue Neuve, 59170, Roubaix', 'photoParking CENTRE', 0, NULL, NULL, NULL, NULL, NULL, NULL),
-(40, NULL, 'Avenue Allende, 59200, Tourcoing', 'photoParking Miss Cavell', 2, NULL, NULL, NULL, NULL, NULL, NULL),
-(43, NULL, 'Avenue Nelson Mandela, 59160, Capinghem', 'photoSaint Philibert', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(46, NULL, 'Rue de la Bienfaisance, 59200, Tourcoing', 'photoParking Hotel de Ville', 2, NULL, NULL, NULL, NULL, NULL, NULL),
-(49, NULL, 'Place Rihour, 59000, Lille', 'photoParking Rihour-Printemps', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(52, NULL, 'place Bartelemy Dorez, 59000, Lille', 'photoPorte des Postes', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(55, NULL, 'Rue du president Vincent Auriol, 59170, Rouba', 'photoParking CHURCHILL', 0, NULL, NULL, NULL, NULL, NULL, NULL),
-(58, NULL, 'Rue des Anges, 59200, Tourcoing', 'photoParking St Christophe', 2, NULL, NULL, NULL, NULL, NULL, NULL),
-(61, NULL, '89 rue Nationale, 59000, Lille', 'photoParking Plaza', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(64, NULL, '70 rue du Molinel, 59000, Lille', 'photoParking Les Tanneurs', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(67, NULL, 'Rue du pont de Neuville,59200, Tourcoing', 'photoPont de Neuville', 2, NULL, NULL, NULL, NULL, NULL, NULL),
-(70, NULL, '6 rue de la Riviere, 59000, Lille', 'photoParking Bethune-Lafayette', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(73, NULL, '2 Avenue Henri Poincare, 59350, Villeneuve dA', 'photo4 Cantons', 3, NULL, NULL, NULL, NULL, NULL, NULL),
-(76, NULL, 'Avenue Jean Baptiste Lebas, 59480, La Bassee', 'photoLa Bassee', 4, NULL, NULL, NULL, NULL, NULL, NULL),
-(79, NULL, 'Facade de lEsplanade, 59000, Lille', 'photoParking Liberte', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(82, NULL, 'Boulevard Eugene Duthoit, 59000, Lille', 'photoCHU – Eurasante', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(85, NULL, 'Rue de Tournai, 59000, Lille', 'photoParking Gare Lille Flandres', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(88, NULL, 'Quai de la Deule,59136, Sainghin en weppes', 'photoDon Sainghin', 5, NULL, NULL, NULL, NULL, NULL, NULL),
-(91, NULL, 'Facade Esplanade, 59000, Lille', 'photoParking Petit Paradis', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(94, NULL, 'Avenue du Peuple Belge, 59000, Lille', 'photoParking Vieux Lille', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(97, NULL, 'Rue de Wattiessart, 59113, Seclin', 'photoSeclin', 6, NULL, NULL, NULL, NULL, NULL, NULL),
-(100, NULL, '11 Place Pierre Semard, 59200, Tourcoing', 'photoGare de Tourcoing', 2, NULL, NULL, NULL, NULL, NULL, NULL),
-(103, NULL, 'Rue Charles Watteeuw, 59170, Roubaix', 'photoParking Mac Arthur Glen (Lannoy Gambetta', 0, NULL, NULL, NULL, NULL, NULL, NULL),
-(106, NULL, 'Place de la Gare, 59280, Armentieres', 'photoArmentieres', 7, NULL, NULL, NULL, NULL, NULL, NULL),
-(109, NULL, 'Avenue de Cologne, 59000, Lille', 'photoParking Gare Lille Europe', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(112, NULL, '164 Avenue Willy Brandt, 59000, Lille', 'photoParking Euralille', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(115, NULL, '19 place Mendes France,59000, Lille', 'photoParking Nouveau Siecle', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(118, NULL, 'Boulevard de Turin, 59000, Lille', 'photoParking Tours', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(121, NULL, 'Rue du moulin Delmar, 59650, Villeneuve dAscq', 'photoLes Pres 1', 1, NULL, NULL, NULL, NULL, NULL, NULL),
-(124, NULL, 'Rue de la Halle, 59170, Roubaix', 'photoParking LA POSTE', 0, NULL, NULL, NULL, NULL, NULL, NULL),
-(127, NULL, 'Boulevard des Cites Unies, 59000, Lille', 'photoParking Grand Palais', 1, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `localisation` (`id`, `adresse`, `photo`, `ville_id`, `lienPhoto`, `parking_id`, `parking_idParking`, `ville_idVille`, `coordoneeGpsGPS`, `xlong`, `ylat`, `coordoneeGPS`) VALUES
+(22, 'Avenue des Nations Unies, 59170, Roubaix', 'photoParking GRAND RUE', 0, NULL, NULL, NULL, NULL, NULL, 3.17753, 50.6932, NULL),
+(25, 'Avenue Carnot, 59000, Lille', 'photoParking Opera', 1, NULL, NULL, NULL, NULL, NULL, 3.06542, 50.6384, NULL),
+(28, 'Boulevard dAlsace, 59000, Lille', 'photoPorte d Arras', 1, NULL, NULL, NULL, NULL, NULL, 3.06377, 50.6174, NULL),
+(31, 'Place de la Republique, 59000, Lille', 'photoParking Republique', 1, NULL, NULL, NULL, NULL, NULL, 3.06323, 50.6311, NULL),
+(34, 'Place du General de Gaulle, 59000, Lille', 'photoParking Grand Place', 1, NULL, NULL, NULL, NULL, NULL, 3.06357, 50.6372, NULL),
+(37, 'Rue Neuve, 59170, Roubaix', 'photoParking CENTRE', 0, NULL, NULL, NULL, NULL, NULL, 3.17212, 50.6911, NULL),
+(40, 'Avenue Allende, 59200, Tourcoing', 'photoParking Miss Cavell', 2, NULL, NULL, NULL, NULL, NULL, 3.16325, 50.7219, NULL),
+(43, 'Avenue Nelson Mandela, 59160, Capinghem', 'photoSaint Philibert', 1, NULL, NULL, NULL, NULL, NULL, 2.97384, 50.6528, NULL),
+(46, 'Rue de la Bienfaisance, 59200, Tourcoing', 'photoParking Hotel de Ville', 2, NULL, NULL, NULL, NULL, NULL, 3.15888, 50.7245, NULL),
+(49, 'Place Rihour, 59000, Lille', 'photoParking Rihour-Printemps', 1, NULL, NULL, NULL, NULL, NULL, 3.06149, 50.6354, NULL),
+(52, 'place Bartelemy Dorez, 59000, Lille', 'photoPorte des Postes', 1, NULL, NULL, NULL, NULL, NULL, 3.04973, 50.6175, NULL),
+(55, 'Rue du president Vincent Auriol, 59170, Rouba', 'photoParking CHURCHILL', 0, NULL, NULL, NULL, NULL, NULL, 3.17911, 50.6896, NULL),
+(58, 'Rue des Anges, 59200, Tourcoing', 'photoParking St Christophe', 2, NULL, NULL, NULL, NULL, NULL, 3.16114, 50.7201, NULL),
+(61, '89 rue Nationale, 59000, Lille', 'photoParking Plaza', 1, NULL, NULL, NULL, NULL, NULL, 3.05829, 50.6351, NULL),
+(64, '70 rue du Molinel, 59000, Lille', 'photoParking Les Tanneurs', 1, NULL, NULL, NULL, NULL, NULL, 3.06721, 50.6343, NULL),
+(67, 'Rue du pont de Neuville,59200, Tourcoing', 'photoPont de Neuville', 2, NULL, NULL, NULL, NULL, NULL, 3.17271, 50.7364, NULL),
+(70, '6 rue de la Riviere, 59000, Lille', 'photoParking Bethune-Lafayette', 1, NULL, NULL, NULL, NULL, NULL, 3.06398, 50.6342, NULL),
+(73, '2 Avenue Henri Poincare, 59350, Villeneuve dA', 'photo4 Cantons', 3, NULL, NULL, NULL, NULL, NULL, 3.13969, 50.6048, NULL),
+(76, 'Avenue Jean Baptiste Lebas, 59480, La Bassee', 'photoLa Bassee', 4, NULL, NULL, NULL, NULL, NULL, 2.80661, 50.5285, NULL),
+(79, 'Facade de lEsplanade, 59000, Lille', 'photoParking Liberte', 1, NULL, NULL, NULL, NULL, NULL, 3.05083, 50.6392, NULL),
+(82, 'Boulevard Eugene Duthoit, 59000, Lille', 'photoCHU – Eurasante', 1, NULL, NULL, NULL, NULL, NULL, 3.04029, 50.6079, NULL),
+(85, 'Rue de Tournai, 59000, Lille', 'photoParking Gare Lille Flandres', 1, NULL, NULL, NULL, NULL, NULL, 3.07265, 50.6351, NULL),
+(88, 'Quai de la Deule,59136, Sainghin en weppes', 'photoDon Sainghin', 5, NULL, NULL, NULL, NULL, NULL, 2.91382, 50.5507, NULL),
+(91, 'Facade Esplanade, 59000, Lille', 'photoParking Petit Paradis', 1, NULL, NULL, NULL, NULL, NULL, 3.052, 50.6419, NULL),
+(94, 'Avenue du Peuple Belge, 59000, Lille', 'photoParking Vieux Lille', 1, NULL, NULL, NULL, NULL, NULL, 3.06401, 50.6416, NULL),
+(97, 'Rue de Wattiessart, 59113, Seclin', 'photoSeclin', 6, NULL, NULL, NULL, NULL, NULL, 3.03363, 50.4566, NULL),
+(100, '11 Place Pierre Semard, 59200, Tourcoing', 'photoGare de Tourcoing', 2, NULL, NULL, NULL, NULL, NULL, 3.16639, 50.7167, NULL),
+(103, 'Rue Charles Watteeuw, 59170, Roubaix', 'photoParking Mac Arthur Glen (Lannoy Gambetta', 0, NULL, NULL, NULL, NULL, NULL, 3.18148, 50.6906, NULL),
+(106, 'Place de la Gare, 59280, Armentieres', 'photoArmentieres', 7, NULL, NULL, NULL, NULL, NULL, 2.91285, 50.5507, NULL),
+(109, 'Avenue de Cologne, 59000, Lille', 'photoParking Gare Lille Europe', 1, NULL, NULL, NULL, NULL, NULL, 3.07613, 50.6399, NULL),
+(112, '164 Avenue Willy Brandt, 59000, Lille', 'photoParking Euralille', 1, NULL, NULL, NULL, NULL, NULL, 3.07448, 50.6364, NULL),
+(115, '19 place Mendes France,59000, Lille', 'photoParking Nouveau Siecle', 1, NULL, NULL, NULL, NULL, NULL, 3.05943, 50.6375, NULL),
+(118, 'Boulevard de Turin, 59000, Lille', 'photoParking Tours', 1, NULL, NULL, NULL, NULL, NULL, 3.07668, 50.6388, NULL),
+(121, 'Rue du moulin Delmar, 59650, Villeneuve dAscq', 'photoLes Pres 1', 1, NULL, NULL, NULL, NULL, NULL, 3.1262, 50.6503, NULL),
+(124, 'Rue de la Halle, 59170, Roubaix', 'photoParking LA POSTE', 0, NULL, NULL, NULL, NULL, NULL, 3.17588, 50.6908, NULL),
+(127, 'Boulevard des Cites Unies, 59000, Lille', 'photoParking Grand Palais', 1, NULL, NULL, NULL, NULL, NULL, 3.07859, 50.6314, NULL);
 
 -- --------------------------------------------------------
 
@@ -136,10 +136,10 @@ CREATE TABLE IF NOT EXISTS `parking` (
   KEY `idx_parking_prix_1h` (`prix_1h`),
   KEY `idx_parking_estGratuit` (`estGratuit`),
   KEY `idx_parking_hauteur` (`hauteur`),
-  KEY `idLocalisation` (`localisation_id`),
-  KEY `idPlaceSpeciales` (`placeSpeciales_id`),
   KEY `FKkgxocur9l31120d62tuco6b7a` (`localisation_idLocalisation`),
-  KEY `FKd9mjbk49p4nrvorbw1rr5rk8p` (`placeSpeciales_idPlacesSpeciales`)
+  KEY `FKd9mjbk49p4nrvorbw1rr5rk8p` (`placeSpeciales_idPlacesSpeciales`),
+  KEY `FK3f70ylvln04xklq1yppycgh82` (`localisation_id`),
+  KEY `FKgh84yd309q3p3215w4dl8iw0n` (`placeSpeciales_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
