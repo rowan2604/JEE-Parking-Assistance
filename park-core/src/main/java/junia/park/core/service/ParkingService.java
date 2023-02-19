@@ -5,6 +5,8 @@ import org.springframework.transaction.annotation.Transactional;
 import junia.park.core.dao.ParkingDAO;
 import junia.park.core.entity.Parking;
 
+import java.util.Optional;
+
 @Service
 @Transactional
 public class ParkingService {
@@ -28,6 +30,10 @@ public class ParkingService {
 
 
     public long countAll() {
-       return parkingDAO.count();
+        return parkingDAO.count();
+    }
+
+    public Optional<Parking> getParkingById(int id) {
+        return parkingDAO.findById(id);
     }
 }

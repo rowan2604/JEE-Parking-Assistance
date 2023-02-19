@@ -61,12 +61,6 @@
         }
     }
 </script>
-
-    <script>
-        function openWindow() {
-            window.open("http://localhost:8080/park_web_war_exploded/list");
-        }
-    </script>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Rechercher par Villes..">
 
     <table class="table table-striped" id="myTable">
@@ -84,10 +78,12 @@
 
                 <td>
                     #foreach($localisation in $ville.localisations)
-                        <a onclick="openWindow();" href="#"> $localisation.adresse</a>
+                    <form action="form" method="POST">
+                        <a href="parking/{$localisation.parking_id}"> $localisation.adresse</a>
                         <br>
                        <br/>
                     #end
+                    </form>
                 </td>
                 <td>$ville.nbrParking</td>
                 <td>$ville.nbrPlace</td>

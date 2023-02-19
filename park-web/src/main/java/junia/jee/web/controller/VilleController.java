@@ -22,18 +22,7 @@ public class VilleController {
         modelMap.addAttribute("villes",villes);
         return "villesList";
     }
-    @RequestMapping(value = "/form")
 
-    public String getForm(ModelMap modelMap){
-        Ville ville = new Ville();
-        modelMap.addAttribute("ville",ville);
-        return "villeForm";
-    }
-    @RequestMapping(value = "/form",method = RequestMethod.POST)
-    public String submitForm(@ModelAttribute("ville") Ville ville){
-        villeService.save(ville);
-        return "redirect:list";
-    }
 
     public String deletePlaceSpeciales(int id){
         villeService.deleteById(id);
